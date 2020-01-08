@@ -7,23 +7,20 @@ export default [
     name: "コレチケ7枚",
     rate_settings: {
       base_rate: 1.0,
-      exclude: megido => {
-        return megido.id === "真23"; //ネフィリム
-      }
+      megido_back_of: "2019-12-31"
     }
   },
   {
     name: "コレチケ10枚",
     rate_settings: {
       base_rate: 1.0,
+      megido_back_of: "2019-12-31",
       exclude: megido => {
-        return (
-          !(
-            megido.clock_type === "真" ||
-            megido.regenerated ||
-            megido.terminus
-          ) || megido.id === "真23"
-        ); //ネフィリム
+        return !(
+          megido.clock_type === "真" ||
+          megido.regenerated ||
+          megido.terminus
+        );
       }
     }
   },
@@ -31,8 +28,9 @@ export default [
     name: "コレチケ15枚",
     rate_settings: {
       base_rate: 1.0,
+      megido_back_of: "2019-12-31",
       exclude: megido => {
-        return !(megido.regenerated || megido.terminus) || megido.id === "真23"; //ネフィリム
+        return !(megido.regenerated || megido.terminus);
       }
     }
   },
@@ -40,6 +38,7 @@ export default [
     name: "ネフィリムサバト",
     rate_settings: {
       base_rate: 0.1,
+      megido_back_of: "2020-01-01",
       pickup: {
         真23: 0.007,
         真25: 0.0035,
@@ -51,15 +50,29 @@ export default [
   },
   {
     name: "新春万歳",
-    rate_settings: {    
-      exclude: megido=> {
+    rate_settings: {
+      megido_back_of: "2020-01-06",
+      exclude: megido => {
         return megido.terminus;
-      },  
+      },
       pickup: {
         祖41R: 0.006,
         祖7R: 0.006,
         祖38: 0.006,
         祖24: 0.006
+      }
+    }
+  },
+  {
+    name: "怒髪衝天の渡し守",
+    rate_settings: {
+      megido_back_of: "2020-01-14",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖19R: 0.012,
+        真17: 0.006
       }
     }
   }

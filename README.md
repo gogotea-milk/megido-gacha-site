@@ -1,3 +1,35 @@
+
+# このサイトについて
+
+- そろそろトンチキピックアップ引いた方がいいのか？　と考え始めたモンモンによる個人ツールを
+インターネットに放流したものです。
+- reactの習作も兼ねてますので設計の甘さ等は笑って流してください。
+- ネタバレには配慮していません。
+
+## 使い方
+
+- 召還済のメギドのチェックボックスをオンにしておけばガチャの被り確率を出してくれます。
+- チェックボックスをオンする度ブックマーク（を更新）しておけば、次回開いたときも召還済みメギドの設定が復活します。
+- なんとなく所持メギドチェッカーにも使えそうです。
+
+## 作者
+
+[gogotea_milk@twitter](https://twitter.com/gogotea_milk)
+
+
+## 今後の更新予定
+
+- 本家は、メギド率が必ず5%（サバト時は10%）を超えるよう、Rオーブ排出率を下げて調整をしているのですが本サイトでは未対応です。よって本家より微妙に全体・各メギド排出率が低いです。そのうち良い計算方法を思いついて直そうと思います。
+- メギド72やってるかぎり対応ガチャは追加していくつもりです。 
+- これ以上の機能を追加する予定はないです（追加しないとは言ってない）。
+
+## 謝辞
+
+- メギドの情報は[メギド72攻略Wiki](https://megido72wiki.com/)を参考にしました。いつもお世話になっております。このサイトがなかったらメギド72は続けられなかった……。
+
+
+# 以下、開発者向け情報 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +98,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### License
+
+MIT

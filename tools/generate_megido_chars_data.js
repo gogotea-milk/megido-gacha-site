@@ -12,8 +12,15 @@ const parser = parse({
   columns: true,
   delimiter: "\t",
   cast: (value, context) => {
-    if(context.column === "clock_id"){
-      return parseInt(value,10);
+    if (context.column === "clock_id") {
+      return parseInt(value, 10);
+    }
+    if (context.column === "implemented") {
+      if (value && value.match(/\d{4}-\d{2}-\d{2}/)) {
+        return value;
+      } else {
+        return null;
+      }
     }
 
     if (!value) {
@@ -44,20 +51,20 @@ parser.on("error", function(err) {
 });
 // When we are done, test that the parsed output matched what expected
 parser.on("end", function() {
-  fs.writeFile(output_path,
+  fs.writeFile(
+    output_path,
     `
     /**
      * Generated from tools/generate_megido_chars_data.js     
     */
     export default ${JSON.stringify(megido_chars_data, null, 4)};
-    `
-    , function(
-    err
-  ) {
-    if (err) {
-      throw err;
+    `,
+    function(err) {
+      if (err) {
+        throw err;
+      }
     }
-  });
+  );
 });
 
 parser.write(fs.readFileSync(input_path));

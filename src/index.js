@@ -4,7 +4,7 @@ import { sprintf } from "sprintf-js";
 import LZString from "lz-string";
 import MegidoCharsData from "./megido_chars_data";
 import GachaListData from "./gacha_list_data";
-import "./index.css";
+import "./styles.css";
 
 const short_style = {
   バースト: "B",
@@ -13,7 +13,7 @@ const short_style = {
 };
 
 function to_percent(num) {
-  return sprintf("%.4f%%", Math.floor((num * 100)*10000)/10000);
+  return sprintf("%.4f%%", Math.floor(num * 100 * 10000) / 10000);
   //return sprintf("%.5f%%", (num * 100));
 }
 
@@ -24,30 +24,38 @@ class GachaList extends React.Component {
 
   render() {
     return (
-      <table>
+      <table class="table-auto border-collapse border-2 border-gray-500">
         <thead>
-          <th>ガチャ名</th>
-          <th>新規メギド率</th>
-          <th>メギド被り率</th>
-          <th>メギド当たり率</th>
+          <th class="border border-gray-400 p-2 text-gray-800 bg-green-100">
+            ガチャ名
+          </th>
+          <th class="border border-gray-400 p-2 text-gray-800 bg-green-100">
+            新規メギド率
+          </th>
+          <th class="border border-gray-400 p-2 text-gray-800 bg-green-100">
+            メギド被り率
+          </th>
+          <th class="border border-gray-400 p-2 text-gray-800 bg-green-100">
+            メギド当たり率
+          </th>
         </thead>
         <tbody>
           {this.props.gacha_list_data.map((gacha, index) => {
             return (
               <tr>
-                <td>{gacha.name}</td>
-                <td>
+                <td class="border px-1">{gacha.name}</td>
+                <td class="border text-right pr-1">
                   {to_percent(this.props.gacha_summary[index].new_megido)}
                 </td>
-                <td>
+                <td class="border text-right pr-1">
                   {to_percent(this.props.gacha_summary[index].dup_megido)}
                 </td>
-                <td>{to_percent(this.props.gacha_summary[index].megido)}</td>
+                <td class="border text-right pr-1">{to_percent(this.props.gacha_summary[index].megido)}</td>
               </tr>
             );
           })}
         </tbody>
-      </table>
+      </table>      
     );
   }
 }
@@ -61,7 +69,7 @@ class MedioTableDatas extends React.Component {
     return this.props.megido_chars.map((megido, megido_index) => {
       return (
         <tr key={megido.key}>
-          <td>
+          <td class="border text-center">
             <input
               type="checkbox"
               checked={megido.exists}
@@ -70,12 +78,12 @@ class MedioTableDatas extends React.Component {
               }}
             />
           </td>
-          <td>
+          <td class="border px-1">
             {megido.name +
               (megido.regenerated ? short_style[megido.style] : "")}
           </td>
           {this.props.megido_gacha_rates[megido_index].map((value, index) => {
-            return <td key={index}>{to_percent(value)}</td>;
+            return <td class="border text-right pr-1" key={index}>{to_percent(value)}</td>;
           })}
         </tr>
       );
@@ -154,6 +162,15 @@ class App extends React.Component {
       if (options.exclude && options.exclude(value)) {
         return false;
       }
+
+      if (options.megido_back_of && value.implemented) {
+        if (
+          Date.parse(value.implemented) > Date.parse(options.megido_back_of)
+        ) {
+          return false;
+        }
+      }
+
       return !(value.main || value.event);
     });
 
@@ -196,12 +213,6 @@ class App extends React.Component {
     } else {
       return ((base_rate - pickup_total_rate) * 2) / base_length;
     }
-  }
-
-  renderGachaListHeader() {
-    return this.state.gacha_list_data.map((value, index) => {
-      return <th key={value.name}>{value.name}</th>;
-    });
   }
 
   applyExistsToHash(megido_chars) {
@@ -257,19 +268,29 @@ class App extends React.Component {
     return gacha_summary;
   }
 
+  renderGachaListHeader() {
+    return this.state.gacha_list_data.map((value, index) => {
+      return <th class="border p-1 w-20 bg-green-100" key={value.name}>{value.name}</th>;
+    });
+  }
+
   render() {
     return (
-      <div className="app">
+      <div className="app" class="container mx-auto">
+        <h1 class="text-2xl my-6">メギドガチャ被り計算</h1>
+        <div class="container mx-auto">        
         <GachaList
           gacha_list_data={this.state.gacha_list_data}
           megido_gacha_rates={this.state.megido_gacha_rates}
           gacha_summary={this.calc_gacha_summary()}
         />
-        <table>
+        <div class="text-orange-500 my-3">本家は、メギド率が必ず5%（サバト時は10%）を超えるよう、Rオーブ排出率を下げて調整をしているのですが、このサイトでは未対応です。</div> 
+        </div>
+        <table class="table-auto mt-6 border-collapse border-2 border-gray-500">
           <thead>
             <tr>
-              <th>所持</th>
-              <th>名前</th>
+              <th class="border p-1 bg-green-100">召還済</th>
+              <th class="border p-1 bg-green-100">名前</th>
               {this.renderGachaListHeader()}
             </tr>
           </thead>

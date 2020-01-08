@@ -1,6 +1,7 @@
 {
   "name": "megido-gacha-site",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -15,6 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "build:styles": "postcss src/tailwind.css -o src/styles.css",
+    "prebuild": "cross-env NODE_ENV=production npm run build:styles",
+    "prestart": "npm run build:styles",
     "generator": "node tools/generate_megido_chars_data.js"
   },
   "eslintConfig": {
@@ -33,7 +37,10 @@
     ]
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.7.3",
     "babel-eslint": "^10.0.3",
+    "cross-env": "^6.0.3",
     "csv-parse": "^4.8.3",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
@@ -42,6 +49,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "lz-string": "^1.4.4",
+    "postcss-cli": "^7.0.0",
     "prettier": "^1.19.1",
     "prettier-eslint": "^9.0.1",
     "prettier-eslint-cli": "^5.0.0",
