@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
+  "homepage": "https://gogotea-milk.github.io/megido-gacha-site",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -19,6 +20,8 @@
     "build:styles": "postcss src/tailwind.css -o src/styles.css",
     "prebuild": "cross-env NODE_ENV=production npm run build:styles",
     "prestart": "npm run build:styles",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "generator": "node tools/generate_megido_chars_data.js"
   },
   "eslintConfig": {
@@ -48,6 +51,7 @@
     "eslint-plugin-jest": "^23.2.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
+    "gh-pages": "^2.2.0",
     "lz-string": "^1.4.4",
     "postcss-cli": "^7.0.0",
     "prettier": "^1.19.1",
