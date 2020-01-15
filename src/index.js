@@ -50,12 +50,14 @@ class GachaList extends React.Component {
                 <td class="border text-right pr-1">
                   {to_percent(this.props.gacha_summary[index].dup_megido)}
                 </td>
-                <td class="border text-right pr-1">{to_percent(this.props.gacha_summary[index].megido)}</td>
+                <td class="border text-right pr-1">
+                  {to_percent(this.props.gacha_summary[index].megido)}
+                </td>
               </tr>
             );
           })}
         </tbody>
-      </table>      
+      </table>
     );
   }
 }
@@ -83,7 +85,11 @@ class MedioTableDatas extends React.Component {
               (megido.regenerated ? short_style[megido.style] : "")}
           </td>
           {this.props.megido_gacha_rates[megido_index].map((value, index) => {
-            return <td class="border text-right pr-1" key={index}>{to_percent(value)}</td>;
+            return (
+              <td class="border text-right pr-1" key={index}>
+                {to_percent(value)}
+              </td>
+            );
           })}
         </tr>
       );
@@ -270,21 +276,35 @@ class App extends React.Component {
 
   renderGachaListHeader() {
     return this.state.gacha_list_data.map((value, index) => {
-      return <th class="border p-1 w-20 bg-green-100" key={value.name}>{value.name}</th>;
+      return (
+        <th class="border p-1 w-20 bg-green-100" key={value.name}>
+          {value.name}
+        </th>
+      );
     });
   }
 
   render() {
     return (
       <div className="app" class="container mx-auto">
-        <h1 class="text-2xl my-6">メギドガチャ被り計算</h1>
-        <div class="container mx-auto">        
-        <GachaList
-          gacha_list_data={this.state.gacha_list_data}
-          megido_gacha_rates={this.state.megido_gacha_rates}
-          gacha_summary={this.calc_gacha_summary()}
-        />
-        <div class="text-orange-500 my-3">本家は、メギド率が必ず5%（サバト時は10%）を超えるよう、Rオーブ排出率を下げて調整をしているのですが、このサイトでは未対応です。</div> 
+        <h1 class="text-2xl mt-6">メギドガチャ被り計算</h1>
+        <div class="my-1">
+          <a
+            class="text-blue-600 underline hover:text-blue-300"
+            href="https://github.com/gogotea-milk/megido-gacha-site"
+          >
+            このサイトについて
+          </a>
+        </div>
+        <div class="container mx-auto">
+          <GachaList
+            gacha_list_data={this.state.gacha_list_data}
+            megido_gacha_rates={this.state.megido_gacha_rates}
+            gacha_summary={this.calc_gacha_summary()}
+          />
+          <div class="text-orange-500 my-3">
+            本家は、メギド率が必ず5%（サバト時は10%）を超えるよう、Rオーブ排出率を下げて調整をしているのですが、このサイトでは未対応です。
+          </div>
         </div>
         <table class="table-auto mt-6 border-collapse border-2 border-gray-500">
           <thead>
