@@ -287,7 +287,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app" class="container mx-auto">
-        <h1 class="text-2xl mt-6">メギドガチャ被り計算</h1>
+        <h1 class="text-2xl mt-6">メギドガチャ被り計算機</h1>
         <div class="my-1">
           <a
             class="text-blue-600 underline hover:text-blue-300"
