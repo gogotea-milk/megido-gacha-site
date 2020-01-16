@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4495b1bcedda74a99a3e5203d5692a83",
+    "revision": "c814674ffad0511659b5f4f6c860f13c",
     "url": "/megido-gacha-site/index.html"
   },
   {
