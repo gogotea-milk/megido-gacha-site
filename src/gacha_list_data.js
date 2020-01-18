@@ -77,7 +77,7 @@ export default [
     }
   },
   {
-    name: "支援上手な三人娘 （仮:Pkup 0.06%）",
+    name: "支援上手な三人娘 （仮:Pkup 0.6%）",
     rate_settings: {
       megido_back_of: "2020-01-19",
       exclude: megido => {
