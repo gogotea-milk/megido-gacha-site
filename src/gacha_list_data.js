@@ -75,5 +75,19 @@ export default [
         真17: 0.006
       }
     }
+  },
+  {
+    name: "支援上手な三人娘 （仮:Pkup 0.06%）",
+    rate_settings: {
+      megido_back_of: "2020-01-19",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖67: 0.006,
+        祖45: 0.006,
+        祖72: 0.006
+      }
+    }
   }
 ];
