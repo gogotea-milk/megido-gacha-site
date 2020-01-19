@@ -48,6 +48,7 @@ export default [
       }
     }
   },
+  /*
   {
     name: "新春万歳",
     rate_settings: {
@@ -63,6 +64,7 @@ export default [
       }
     }
   },
+  */
   {
     name: "怒髪衝天の渡し守",
     rate_settings: {
@@ -76,8 +78,9 @@ export default [
       }
     }
   },
+  
   {
-    name: "支援上手な三人娘 （仮:Pkup 0.6%）",
+    name: "支援上手な三人娘",
     rate_settings: {
       megido_back_of: "2020-01-19",
       exclude: megido => {
