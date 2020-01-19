@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/megido-gacha-site/static/css/main.a00cdd16.chunk.css",
-    "main.js": "/megido-gacha-site/static/js/main.f9ee2308.chunk.js",
-    "main.js.map": "/megido-gacha-site/static/js/main.f9ee2308.chunk.js.map",
+    "main.js": "/megido-gacha-site/static/js/main.8bcf2a73.chunk.js",
+    "main.js.map": "/megido-gacha-site/static/js/main.8bcf2a73.chunk.js.map",
     "runtime-main.js": "/megido-gacha-site/static/js/runtime-main.cd503bcd.js",
     "runtime-main.js.map": "/megido-gacha-site/static/js/runtime-main.cd503bcd.js.map",
     "static/js/2.93ad1ffd.chunk.js": "/megido-gacha-site/static/js/2.93ad1ffd.chunk.js",
     "static/js/2.93ad1ffd.chunk.js.map": "/megido-gacha-site/static/js/2.93ad1ffd.chunk.js.map",
     "index.html": "/megido-gacha-site/index.html",
-    "precache-manifest.bb16a05d748d9f452a3d00e47355f5e4.js": "/megido-gacha-site/precache-manifest.bb16a05d748d9f452a3d00e47355f5e4.js",
+    "precache-manifest.ec12ba2782c5ba18e61b67b24abb10ac.js": "/megido-gacha-site/precache-manifest.ec12ba2782c5ba18e61b67b24abb10ac.js",
     "service-worker.js": "/megido-gacha-site/service-worker.js",
     "static/css/main.a00cdd16.chunk.css.map": "/megido-gacha-site/static/css/main.a00cdd16.chunk.css.map",
     "static/js/2.93ad1ffd.chunk.js.LICENSE": "/megido-gacha-site/static/js/2.93ad1ffd.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cd503bcd.js",
     "static/js/2.93ad1ffd.chunk.js",
     "static/css/main.a00cdd16.chunk.css",
-    "static/js/main.f9ee2308.chunk.js"
+    "static/js/main.8bcf2a73.chunk.js"
   ]
 }
