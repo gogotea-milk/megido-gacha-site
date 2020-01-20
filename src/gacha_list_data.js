@@ -64,7 +64,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "怒髪衝天の渡し守",
     rate_settings: {
@@ -78,7 +77,7 @@ export default [
       }
     }
   },
-  
+  */
   {
     name: "支援上手な三人娘",
     rate_settings: {
@@ -90,6 +89,19 @@ export default [
         祖67: 0.006,
         祖45: 0.006,
         祖72: 0.006
+      }
+    }
+  },
+  {
+    name: "ナンパ術 （仮:Pkup 0.6%）",
+    rate_settings: {
+      megido_back_of: "2020-01-21",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真9R: 0.006,
+        真22R: 0.006
       }
     }
   }
