@@ -93,7 +93,7 @@ export default [
     }
   },
   {
-    name: "ナンパ術 （仮:Pkup 0.6%）",
+    name: "ナンパ術",
     rate_settings: {
       megido_back_of: "2020-01-21",
       exclude: megido => {
