@@ -48,6 +48,7 @@ export default [
       }
     }
   },
+  /*
   {
     name: "新春万歳",
     rate_settings: {
@@ -73,6 +74,34 @@ export default [
       pickup: {
         祖19R: 0.012,
         真17: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "支援上手な三人娘",
+    rate_settings: {
+      megido_back_of: "2020-01-19",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖67: 0.006,
+        祖45: 0.006,
+        祖72: 0.006
+      }
+    }
+  },
+  {
+    name: "ナンパ術",
+    rate_settings: {
+      megido_back_of: "2020-01-21",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真9R: 0.006,
+        真22R: 0.006
       }
     }
   }
