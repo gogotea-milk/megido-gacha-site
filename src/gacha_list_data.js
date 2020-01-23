@@ -3,6 +3,7 @@
  */
 
 export default [
+  /*
   {
     name: "コレチケ7枚",
     rate_settings: {
@@ -34,6 +35,7 @@ export default [
       }
     }
   },
+  */
   {
     name: "ネフィリムサバト",
     rate_settings: {
