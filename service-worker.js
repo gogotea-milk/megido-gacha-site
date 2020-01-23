@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/megido-gacha-site/precache-manifest.3ee1204c8233befa45ed717826c4cf6d.js"
+  "/megido-gacha-site/precache-manifest.be99187142e974ad55d2ade90d7b8f99.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/megido-gacha-site/static/css/main.a00cdd16.chunk.css",
-    "main.js": "/megido-gacha-site/static/js/main.717976ef.chunk.js",
-    "main.js.map": "/megido-gacha-site/static/js/main.717976ef.chunk.js.map",
+    "main.js": "/megido-gacha-site/static/js/main.eea43e8d.chunk.js",
+    "main.js.map": "/megido-gacha-site/static/js/main.eea43e8d.chunk.js.map",
     "runtime-main.js": "/megido-gacha-site/static/js/runtime-main.cd503bcd.js",
     "runtime-main.js.map": "/megido-gacha-site/static/js/runtime-main.cd503bcd.js.map",
-    "static/js/2.93ad1ffd.chunk.js": "/megido-gacha-site/static/js/2.93ad1ffd.chunk.js",
-    "static/js/2.93ad1ffd.chunk.js.map": "/megido-gacha-site/static/js/2.93ad1ffd.chunk.js.map",
+    "static/js/2.d6160bfd.chunk.js": "/megido-gacha-site/static/js/2.d6160bfd.chunk.js",
+    "static/js/2.d6160bfd.chunk.js.map": "/megido-gacha-site/static/js/2.d6160bfd.chunk.js.map",
     "index.html": "/megido-gacha-site/index.html",
-    "precache-manifest.3ee1204c8233befa45ed717826c4cf6d.js": "/megido-gacha-site/precache-manifest.3ee1204c8233befa45ed717826c4cf6d.js",
+    "precache-manifest.be99187142e974ad55d2ade90d7b8f99.js": "/megido-gacha-site/precache-manifest.be99187142e974ad55d2ade90d7b8f99.js",
     "service-worker.js": "/megido-gacha-site/service-worker.js",
     "static/css/main.a00cdd16.chunk.css.map": "/megido-gacha-site/static/css/main.a00cdd16.chunk.css.map",
-    "static/js/2.93ad1ffd.chunk.js.LICENSE": "/megido-gacha-site/static/js/2.93ad1ffd.chunk.js.LICENSE"
+    "static/js/2.d6160bfd.chunk.js.LICENSE": "/megido-gacha-site/static/js/2.d6160bfd.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.cd503bcd.js",
-    "static/js/2.93ad1ffd.chunk.js",
+    "static/js/2.d6160bfd.chunk.js",
     "static/css/main.a00cdd16.chunk.css",
-    "static/js/main.717976ef.chunk.js"
+    "static/js/main.eea43e8d.chunk.js"
   ]
 }
