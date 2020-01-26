@@ -79,7 +79,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "支援上手な三人娘",
     rate_settings: {
@@ -94,6 +93,7 @@ export default [
       }
     }
   },
+  */
   {
     name: "ナンパ術",
     rate_settings: {
@@ -104,6 +104,20 @@ export default [
       pickup: {
         真9R: 0.006,
         真22R: 0.006
+      }
+    }
+  },
+  {
+    name: "文豪紡ぐサスペンス(予想)",
+    rate_settings: {
+      megido_back_of: "2020-01-26",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖30: 0.006,
+        祖63: 0.006,
+        真31: 0.006
       }
     }
   }
