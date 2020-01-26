@@ -26,6 +26,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 祖	16	ゼパル	カウンター	ファイター	TRUE				2018-09-11
 祖	17	ボティス	カウンター	トルーパー					
 祖	18	バティン	ラッシュ	トルーパー					
+祖	18	バティン	バースト	トルーパー	TRUE				2020-02-14
 祖	19	サレオス	バースト	ファイター					
 祖	19	サレオス	カウンター	ファイター	TRUE				2020-01-14
 祖	20	プルソン	ラッシュ	トルーパー					
@@ -143,6 +144,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 真	55	アリトン	カウンター	スナイパー					2018-04-14
 真	57	ベヒモス	ラッシュ	ファイター				TRUE	2018-11-30
 真	58	ダゴン	カウンター	トルーパー				TRUE	2018-09-28
+真	59	スコルベノト	カウンター	トルーパー					2020-01-31
 真	62	インプ	バースト	トルーパー					2018-10-31
 真	64	プロメテウス	バースト	スナイパー				TRUE	2018-07-31
 真	65	ベルフェゴール	カウンター	ファイター		TRUE			2019-08-26

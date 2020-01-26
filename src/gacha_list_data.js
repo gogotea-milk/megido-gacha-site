@@ -35,7 +35,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "ネフィリムサバト",
     rate_settings: {
@@ -50,7 +49,6 @@ export default [
       }
     }
   },
-  /*
   {
     name: "新春万歳",
     rate_settings: {
@@ -79,7 +77,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "支援上手な三人娘",
     rate_settings: {
@@ -104,6 +101,98 @@ export default [
       pickup: {
         真9R: 0.006,
         真22R: 0.006
+      }
+    }
+  },
+  {
+    name: "文豪紡ぐサスペンス",
+    rate_settings: {
+      megido_back_of: "2020-01-26",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖30: 0.006,
+        祖63: 0.006,
+        真31: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "キュートな野郎サバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-01-31",      
+      pickup: {
+        真23: 0.0035,
+        真70: 0.0035,
+        真59: 0.012
+      }
+    }
+  },
+  {
+    name: "サキュバスB魔吊(予想)",    
+    rate_settings: {
+      base_rate: 0.04,
+      megido_back_of: "2020-02-15",      
+      exclude: megido => {
+        return megido.clock_type === "真" ||  megido.regenerated ||  megido.terminus;
+      },
+      pickup: {
+        真3R: 0.02
+      }
+    }
+  },
+  {
+    name: "ティアマト魔吊(予想)",    
+    rate_settings: {
+      base_rate: 0.04,
+      megido_back_of: "2020-02-15",      
+      exclude: megido => {
+        return megido.clock_type === "真" ||  megido.regenerated ||  megido.terminus;
+      },
+      pickup: {
+        真17: 0.02
+      }
+    }
+  },
+  {
+    name: "アイムR魔吊(予想)",    
+    rate_settings: {
+      base_rate: 0.04,
+      megido_back_of: "2020-02-15",      
+      exclude: megido => {
+        return megido.clock_type === "真" ||  megido.regenerated ||  megido.terminus;
+      },
+      pickup: {
+        祖23R: 0.02
+      }
+    }
+  },
+  {
+    name: "ボティス魔吊(予想)",    
+    rate_settings: {
+      base_rate: 0.04,
+      megido_back_of: "2020-02-15",      
+      exclude: megido => {
+        return megido.clock_type === "真" ||  megido.regenerated ||  megido.terminus;
+      },
+      pickup: {
+        祖17: 0.02
+      }
+    }
+  },
+  {
+    name: "ベバル魔吊(予想)",    
+    rate_settings: {
+      base_rate: 0.04,
+      megido_back_of: "2020-02-15",      
+      exclude: megido => {
+        return megido.clock_type === "真" ||  megido.regenerated ||  megido.terminus;
+      },
+      pickup: {
+        真53: 0.02
       }
     }
   }

@@ -67,6 +67,8 @@ class App extends React.Component {
     this.gacha_list_data = gacha_list_data;
     this.megido_gacha_rates = megido_gacha_rates;
 
+    this.handleMegidoExistChanged = this.handleMegidoExistChanged.bind(this);
+
     this.state = {
       megido_exist_list: megido_exist_list
     };
@@ -76,6 +78,10 @@ class App extends React.Component {
     let base_rate = options.base_rate ? options.base_rate : 0.05;
 
     let targets = megido_chars.filter(value => {
+      if(options.pickup && Object.keys(options.pickup).includes(value.id)){
+        return true;
+      }
+
       if (options.exclude && options.exclude(value)) {
         return false;
       }
@@ -95,10 +101,6 @@ class App extends React.Component {
       return value.terminus;
     });
 
-    if (!targets.find(value => value.id === megido.id)) {
-      return 0;
-    }
-
     let pickup_total_rate = 0.0;
     let pickup_normal_length = 0;
     let pickup_terminus_length = 0;
@@ -116,6 +118,10 @@ class App extends React.Component {
       if (Object.keys(options.pickup).includes(megido.id)) {
         return options.pickup[megido.id];
       }
+    }
+
+    if (!targets.find(value => value.id === megido.id)) {
+      return 0;
     }
 
     let target_normal_length =
@@ -138,14 +144,13 @@ class App extends React.Component {
     );
   }
 
-  handleChange(megido, index) {
-    console.log(megido, index);
-
+  handleMegidoExistChanged(megido, exist) {
     let megido_exist_list = this.state.megido_exist_list.slice();
-    if (megido_exist_list.includes(megido.id)) {
-      megido_exist_list = megido_exist_list.filter(v => v !== megido.id);
-    } else {
+
+    if (exist) {
       megido_exist_list.push(megido.id);
+    } else {
+      megido_exist_list = megido_exist_list.filter(v => v !== megido.id);
     }
 
     this.applyExistsToHash(megido_exist_list);
@@ -185,7 +190,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="app" class="container mx-auto">
+      <div className="app" class="container mx-auto px-1 pb-1 text-sm">
         <h1 class="text-2xl mt-6">メギドガチャ被り計算機</h1>
         <div class="my-1">
           <a
@@ -211,7 +216,7 @@ class App extends React.Component {
             gacha_list_data={this.gacha_list_data}
             megido_gacha_rates={this.megido_gacha_rates}
             megido_exist_list={this.state.megido_exist_list}
-            onChange={(megido, index) => this.handleChange(megido, index)}
+            handleMegidoExistChanged={this.handleMegidoExistChanged}
           />
         </div>
       </div>

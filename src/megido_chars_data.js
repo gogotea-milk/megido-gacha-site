@@ -356,6 +356,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 18,
+        "name": "バティン",
+        "style": "バースト",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-02-14",
+        "id": "祖18R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 19,
         "name": "サレオス",
         "style": "バースト",
@@ -1874,6 +1887,19 @@
         "terminus": true,
         "implemented": "2018-09-28",
         "id": "真58"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 59,
+        "name": "スコルベノト",
+        "style": "カウンター",
+        "class": "トルーパー",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-01-31",
+        "id": "真59"
     },
     {
         "clock_type": "真",
