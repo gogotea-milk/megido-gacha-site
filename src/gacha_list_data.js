@@ -93,7 +93,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "ナンパ術",
     rate_settings: {
@@ -107,8 +106,9 @@ export default [
       }
     }
   },
+  */
   {
-    name: "文豪紡ぐサスペンス(予想)",
+    name: "文豪紡ぐサスペンス",
     rate_settings: {
       megido_back_of: "2020-01-26",
       exclude: megido => {
@@ -118,6 +118,18 @@ export default [
         祖30: 0.006,
         祖63: 0.006,
         真31: 0.006
+      }
+    }
+  },
+  {
+    name: "キュートな野郎サバト(予想)",    
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-01-31",      
+      pickup: {
+        真23: 0.0035,
+        真70: 0.0035,
+        真59: 0.012
       }
     }
   }

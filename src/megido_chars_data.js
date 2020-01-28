@@ -1877,6 +1877,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 59,
+        "name": "スコルベノト",
+        "style": "カウンター",
+        "class": "トルーパー",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-01-31",
+        "id": "真59"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 62,
         "name": "インプ",
         "style": "バースト",
