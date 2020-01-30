@@ -76,6 +76,10 @@ class App extends React.Component {
     let base_rate = options.base_rate ? options.base_rate : 0.05;
 
     let targets = megido_chars.filter(value => {
+      if(options.pickup && Object.keys(options.pickup).includes(value.id)){
+        return true;
+      }
+
       if (options.exclude && options.exclude(value)) {
         return false;
       }
@@ -95,10 +99,6 @@ class App extends React.Component {
       return value.terminus;
     });
 
-    if (!targets.find(value => value.id === megido.id)) {
-      return 0;
-    }
-
     let pickup_total_rate = 0.0;
     let pickup_normal_length = 0;
     let pickup_terminus_length = 0;
@@ -116,6 +116,10 @@ class App extends React.Component {
       if (Object.keys(options.pickup).includes(megido.id)) {
         return options.pickup[megido.id];
       }
+    }
+
+    if (!targets.find(value => value.id === megido.id)) {
+      return 0;
     }
 
     let target_normal_length =

@@ -356,6 +356,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 18,
+        "name": "バティン",
+        "style": "バースト",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-02-14",
+        "id": "祖18R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 19,
         "name": "サレオス",
         "style": "バースト",
