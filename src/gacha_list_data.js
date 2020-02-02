@@ -104,7 +104,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "文豪紡ぐサスペンス",
     rate_settings: {
@@ -119,8 +118,9 @@ export default [
       }
     }
   },
+  */
   {
-    name: "キュートな野郎サバト(予想)",    
+    name: "キュートな野郎サバト",
     rate_settings: {
       base_rate: 0.1,
       megido_back_of: "2020-01-31",      
