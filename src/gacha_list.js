@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { sprintf } from "sprintf-js";
 
 function to_percent(num) {
-  return sprintf("%.4f%%", Math.floor(num * 100 * 10000) / 10000);
+  return sprintf("%.2f%%", Math.floor(num * 100 * 100) / 100);
   //return sprintf("%.5f%%", (num * 100));
 }
 
@@ -16,16 +16,16 @@ class GachaList extends React.Component {
     return (
       <table class="table-auto border-collapse border-2 border-gray-500">
         <thead>
-          <th class="border border-gray-400 p-2 text-gray-800 bg-green-100">
+          <th class="border border-gray-400 p-1 text-gray-800 bg-green-100">
             ガチャ名
           </th>
-          <th class="border border-gray-400 p-2 text-gray-800 bg-green-100">
+          <th class="border border-gray-400 p-1 text-gray-800 bg-green-100">
             新規メギド率
           </th>
-          <th class="border border-gray-400 p-2 text-gray-800 bg-green-100">
+          <th class="border border-gray-400 p-1 text-gray-800 bg-green-100">
             メギド被り率
           </th>
-          <th class="border border-gray-400 p-2 text-gray-800 bg-green-100">
+          <th class="border border-gray-400 p-1 text-gray-800 bg-green-100">
             メギド当たり率
           </th>
         </thead>
