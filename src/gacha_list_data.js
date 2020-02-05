@@ -132,7 +132,7 @@ export default [
     }
   },
   {
-    name: "ビタースイート(予想)",
+    name: "ビタースイート",
     rate_settings: {
       megido_back_of: "2020-02-05",
       exclude: megido => {
