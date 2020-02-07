@@ -145,6 +145,19 @@ export default [
     }
   },
   {
+    name: "恐注射(仮)",
+    rate_settings: {
+      megido_back_of: "2020-02-10",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖18R: 0.012,
+        祖36: 0.006
+      }
+    }
+  },
+  {
     name: "サキュバスB魔吊(予想)",
     rate_settings: {
       base_rate: 0.04,

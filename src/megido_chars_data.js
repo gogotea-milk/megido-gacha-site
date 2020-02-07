@@ -364,7 +364,7 @@
         "main": false,
         "event": false,
         "terminus": false,
-        "implemented": "2020-02-14",
+        "implemented": "2020-02-10",
         "id": "祖18R"
     },
     {
