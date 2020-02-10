@@ -131,6 +131,7 @@ export default [
       }
     }
   },
+  /*
   {
     name: "ビタースイート",
     rate_settings: {
@@ -144,8 +145,9 @@ export default [
       }
     }
   },
+  */
   {
-    name: "恐注射(仮)",
+    name: "恐注射",
     rate_settings: {
       megido_back_of: "2020-02-10",
       exclude: megido => {
