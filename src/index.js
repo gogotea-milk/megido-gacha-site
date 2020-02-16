@@ -5,6 +5,7 @@ import MegidoCharsData from "./megido_chars_data";
 import GachaListData from "./gacha_list_data";
 import MegidoList from "./megido_list";
 import GachaList from "./gacha_list";
+import FilterToggleGroup from "./filter_toggle_group";
 import "./styles.css";
 
 class App extends React.Component {
@@ -69,9 +70,35 @@ class App extends React.Component {
 
     this.handleMegidoExistChanged = this.handleMegidoExistChanged.bind(this);
 
+    const filters = {};
+    const filterLabels = {};
+
+    function addFilter(filter, items) {
+      filterLabels[filter] = items.map(v => {
+        return { label: v, checked: true };
+      });
+      const filter_state = {};
+      items.forEach(v => {
+        filter_state[v] = { checked: true };
+      });
+      filters["filter_" + filter] = filter_state;
+    }
+
+    addFilter("clock_type", ["祖", "祖(Re)", "真", "真(Re)"]);
+    addFilter("terminus", ["恒常", "テルナミス"]);
+    addFilter("main_evt", ["メイン・イベント", "ガチャ"]);
+    addFilter("exists", ["召喚済", "未召喚"]);
+
+    this.filterLabels = filterLabels;
+    console.log(this.filterLabels);
+    console.log(filters);
+
     this.state = {
+      ...filters,
       megido_exist_list: megido_exist_list
     };
+
+    this.handleFilterToggled = this.handleFilterToggled.bind(this);
   }
 
   calc_rate(megido, megido_chars, megido_index, options = {}) {
@@ -188,6 +215,18 @@ class App extends React.Component {
     return gacha_summary;
   }
 
+  handleFilterToggled(filter_name, name, i) {
+    console.log(name, i);  
+    const current = this.state[filter_name][name].checked;
+    const next = {
+      ...this.state[filter_name]
+    };
+    next[name].checked = !current;
+    this.setState({
+      [filter_name]: next
+    });
+  }
+
   render() {
     return (
       <div className="app" class="container mx-auto px-1 pb-1 text-sm">
@@ -209,6 +248,34 @@ class App extends React.Component {
         </div>
         <div class="text-orange-500 my-3">
           本家は、メギド率が必ず5%（サバト時は10%）を超えるよう、Rオーブ排出率を下げて調整をしているのですが、このサイトでは未対応です。
+        </div>
+        <div class="container">
+          <FilterToggleGroup
+            filters={this.filterLabels.clock_type}
+            filter_status={this.state.filter_clock_type}
+            filter_status_id="filter_clock_type"
+            handleFilterToggled={this.handleFilterToggled}
+          />
+          {/**
+          <FilterToggleGroup
+            filters={this.filterLabels.terminus}
+            handleFilterToggled={name => {
+              console.log(name);
+            }}
+          />
+          <FilterToggleGroup
+            filters={this.filterLabels.main_evt}
+            handleFilterToggled={name => {
+              console.log(name);
+            }}
+          />
+          <FilterToggleGroup
+            filters={this.filterLabels.exists}
+            handleFilterToggled={name => {
+              console.log(name);
+            }}
+          />
+          */}
         </div>
         <div>
           <MegidoList
