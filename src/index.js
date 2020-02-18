@@ -70,18 +70,18 @@ class App extends React.Component {
 
     this.handleMegidoExistChanged = this.handleMegidoExistChanged.bind(this);
 
-    const filters = {};
-    const filterLabels = {};
+    const filter_states = {};
+    const filter_labels = {};
 
     function addFilter(filter, items) {
-      filterLabels[filter] = items.map(v => {
+      filter_labels[filter] = items.map(v => {
         return { label: v, checked: true };
       });
       const filter_state = {};
-      items.forEach(v => {
-        filter_state[v] = { checked: true };
+      items.forEach((v, i) => {
+        filter_state[v] = true;
       });
-      filters["filter_" + filter] = filter_state;
+      filter_states["filter_" + filter] = filter_state;
     }
 
     addFilter("clock_type", ["祖", "祖(Re)", "真", "真(Re)"]);
@@ -89,12 +89,10 @@ class App extends React.Component {
     addFilter("main_evt", ["メイン・イベント", "ガチャ"]);
     addFilter("exists", ["召喚済", "未召喚"]);
 
-    this.filterLabels = filterLabels;
-    console.log(this.filterLabels);
-    console.log(filters);
+    this.filter_label = filter_labels;
 
     this.state = {
-      ...filters,
+      ...filter_states,
       megido_exist_list: megido_exist_list
     };
 
@@ -105,7 +103,7 @@ class App extends React.Component {
     let base_rate = options.base_rate ? options.base_rate : 0.05;
 
     let targets = megido_chars.filter(value => {
-      if(options.pickup && Object.keys(options.pickup).includes(value.id)){
+      if (options.pickup && Object.keys(options.pickup).includes(value.id)) {
         return true;
       }
 
@@ -215,13 +213,11 @@ class App extends React.Component {
     return gacha_summary;
   }
 
-  handleFilterToggled(filter_name, name, i) {
-    console.log(name, i);  
-    const current = this.state[filter_name][name].checked;
+  handleFilterToggled(filter_name, toggled_item, i) {
     const next = {
       ...this.state[filter_name]
     };
-    next[name].checked = !current;
+    next[toggled_item] = !this.state[filter_name][toggled_item];
     this.setState({
       [filter_name]: next
     });
@@ -251,33 +247,35 @@ class App extends React.Component {
         </div>
         <div class="container">
           <FilterToggleGroup
-            filters={this.filterLabels.clock_type}
+            filter_label={this.filter_label.clock_type}
             filter_status={this.state.filter_clock_type}
-            filter_status_id="filter_clock_type"
-            handleFilterToggled={this.handleFilterToggled}
-          />
-          {/**
-          <FilterToggleGroup
-            filters={this.filterLabels.terminus}
-            handleFilterToggled={name => {
-              console.log(name);
-            }}
+            handleFilterToggled={(name, i) =>
+              this.handleFilterToggled("filter_clock_type", name, i)
+            }
           />
           <FilterToggleGroup
-            filters={this.filterLabels.main_evt}
-            handleFilterToggled={name => {
-              console.log(name);
-            }}
+            filter_label={this.filter_label.terminus}
+            filter_status={this.state.filter_terminus}
+            handleFilterToggled={(name, i) =>
+              this.handleFilterToggled("filter_terminus", name, i)
+            }
           />
           <FilterToggleGroup
-            filters={this.filterLabels.exists}
-            handleFilterToggled={name => {
-              console.log(name);
-            }}
+            filter_label={this.filter_label.main_evt}
+            filter_status={this.state.filter_main_evt}
+            handleFilterToggled={(name, i) =>
+              this.handleFilterToggled("filter_main_evt", name, i)
+            }
           />
-          */}
+          <FilterToggleGroup
+            filter_label={this.filter_label.exists}
+            filter_status={this.state.filter_exists}
+            handleFilterToggled={(name, i) =>
+              this.handleFilterToggled("filter_exists", name, i)
+            }
+          />
         </div>
-        <div>
+        <div class="mt-1">
           <MegidoList
             megido_chars={this.megido_chars}
             gacha_list_data={this.gacha_list_data}

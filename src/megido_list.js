@@ -71,7 +71,7 @@ class MegidoList extends React.Component {
 
   render() {
     return (
-      <table class="w-full sm:w-auto table-fixed sm:table-auto mt-6 border-collapse border-2 border-gray-500">
+      <table class="w-full sm:w-auto table-fixed sm:table-auto border-collapse border-2 border-gray-500">
         <thead>
           <tr>
             <th class="border p-1 bg-green-100 whitespace-no-wrap w-14">
