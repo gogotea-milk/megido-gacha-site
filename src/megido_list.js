@@ -87,11 +87,49 @@ class MegidoList extends React.Component {
         </thead>
         <tbody>
           {this.props.megido_chars.map((megido, i) => {
+            const filter_status = this.props.filter_status;
+            const megido_exists = this.props.megido_exist_list.includes(
+              megido.id
+            );
+            const clock_type =
+              megido.clock_type + (megido.regenerated ? "(Re)" : "");
+
+            if (!filter_status.clock_type[clock_type]) {
+              return "";
+            }
+
+            if (!filter_status.terminus["テルナミス"] && megido.terminus) {
+              return "";
+            }
+            if (!filter_status.terminus["恒常"] && !megido.terminus) {
+              return "";
+            }
+
+            if (
+              !filter_status.main_evt["メイン・イベント"] &&
+              (megido.main || megido.event)
+            ) {
+              return "";
+            }
+            if (
+              !filter_status.main_evt["ガチャ"] &&
+              !(megido.main || megido.event)
+            ) {
+              return "";
+            }
+
+            if (!filter_status.exists["召喚済"] && megido_exists) {
+              return "";
+            }
+            if (!filter_status.exists["未召喚"] && !megido_exists) {
+              return "";
+            }
+
             return (
               <MegidoRow
                 megido={megido}
                 key={megido.id}
-                exists={this.props.megido_exist_list.includes(megido.id)}
+                exists={megido_exists}
                 gacha_names={this.props.gacha_list_data.map(v => v.name)}
                 gacha_rates={this.props.megido_gacha_rates[i]}
                 handleMegidoExistChanged={this.props.handleMegidoExistChanged}

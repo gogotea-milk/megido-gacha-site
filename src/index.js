@@ -281,6 +281,12 @@ class App extends React.Component {
             gacha_list_data={this.gacha_list_data}
             megido_gacha_rates={this.megido_gacha_rates}
             megido_exist_list={this.state.megido_exist_list}
+            filter_status={{
+              clock_type: this.state.filter_clock_type,                            
+              terminus:this.state.filter_terminus,
+              main_evt: this.state.filter_main_evt,
+              exists: this.state.filter_exists,
+            }}
             handleMegidoExistChanged={this.handleMegidoExistChanged}
           />
         </div>
