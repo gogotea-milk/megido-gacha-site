@@ -145,7 +145,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "恐注射",
     rate_settings: {
@@ -159,6 +158,7 @@ export default [
       }
     }
   },
+  */
   {
     name: "サキュバスB魔吊",
     rate_settings: {
