@@ -281,11 +281,29 @@ class App extends React.Component {
             gacha_list_data={this.gacha_list_data}
             megido_gacha_rates={this.megido_gacha_rates}
             megido_exist_list={this.state.megido_exist_list}
-            filter_status={{
-              clock_type: this.state.filter_clock_type,                            
-              terminus:this.state.filter_terminus,
-              main_evt: this.state.filter_main_evt,
-              exists: this.state.filter_exists,
+            filter_settings={{
+              clock_type: {
+                祖: {
+                  true: this.state.filter_clock_type["祖(Re)"],
+                  false: this.state.filter_clock_type["祖"]
+                },
+                真: {
+                  true: this.state.filter_clock_type["真(Re)"],
+                  false: this.state.filter_clock_type["真"]
+                }
+              },
+              terminus: {
+                true: this.state.filter_terminus["テルナミス"],
+                false: this.state.filter_terminus["恒常"]
+              },
+              main_evt: {
+                true: this.state.filter_main_evt["メイン・イベント"],
+                false: this.state.filter_main_evt["ガチャ"]
+              },
+              exists: {
+                true: this.state.filter_exists["召喚済"],
+                false: this.state.filter_exists["未召喚"]
+              }
             }}
             handleMegidoExistChanged={this.handleMegidoExistChanged}
           />
