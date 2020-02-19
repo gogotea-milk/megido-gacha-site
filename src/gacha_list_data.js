@@ -233,5 +233,18 @@ export default [
         真53: 0.02
       }
     }
+  },
+  {
+    name: "鎮魂歌",
+    rate_settings: {
+      megido_back_of: "2020-02-20",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖8R: 0.006,
+        祖49R: 0.006
+      }
+    }
   }
 ];
