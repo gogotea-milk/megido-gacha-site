@@ -157,8 +157,7 @@ export default [
         祖36: 0.006
       }
     }
-  },
-  */
+  },  
   {
     name: "サキュバスB魔吊",
     rate_settings: {
@@ -208,7 +207,7 @@ export default [
     name: "ボティス魔吊",
     rate_settings: {
       base_rate: 0.05,
-      megido_back_of: "2020-02-18",
+    n  megido_back_of: "2020-02-18",
       exclude: megido => {
         return (
           megido.terminus
@@ -220,7 +219,7 @@ export default [
     }
   },
   {
-    name: "ベバル魔吊",
+    name: "ベバル魔吊n",
     rate_settings: {
       base_rate: 0.05,
       megido_back_of: "2020-02-19",
@@ -234,6 +233,7 @@ export default [
       }
     }
   },
+  */
   {
     name: "鎮魂歌",
     rate_settings: {
