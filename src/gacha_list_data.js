@@ -246,5 +246,19 @@ export default [
         祖49R: 0.006
       }
     }
+  },
+  {
+    name: "寝坊しただと？",
+    rate_settings: {
+      megido_back_of: "2020-02-25",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖52: 0.006,
+        祖25: 0.006,
+        祖34: 0.006
+      }
+    }
   }
 ];
