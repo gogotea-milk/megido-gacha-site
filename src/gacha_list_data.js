@@ -118,7 +118,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "キュートな野郎サバト",
     rate_settings: {
@@ -131,7 +130,6 @@ export default [
       }
     }
   },
-  /*
   {
     name: "ビタースイート",
     rate_settings: {
@@ -233,7 +231,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "鎮魂歌",
     rate_settings: {
@@ -246,7 +243,8 @@ export default [
         祖49R: 0.006
       }
     }
-  },
+  }
+  */  
   {
     name: "寝坊しただと？",
     rate_settings: {
@@ -260,5 +258,107 @@ export default [
         祖34: 0.006
       }
     }
-  }
+  },
+  {
+    name: "男装剣士サバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-02-29",
+      pickup: {
+        真25: 0.0035,
+        真69: 0.0035,
+        真51R: 0.012
+      }
+    }
+  },
+  {
+    name: "カスピエルC魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-03-15",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        真22R: 0.02
+      }
+    }
+  },
+  {
+    name: "フォカロルR魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-03-16",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        祖41R: 0.02
+      }
+    }
+  },
+  {
+    name: "フォラス魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-03-17",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        祖31: 0.02
+      }
+    }
+  },
+  {
+    name: "アバラム魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-03-18",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        真54: 0.02
+      }
+    }
+  },
+  {
+    name: "ラウムC魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-03-19",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        祖40R: 0.02
+      }
+    }
+  },
+  {
+    name: "アモンR魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-03-20",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        祖7R: 0.02
+      }
+    }
+  },
 ];

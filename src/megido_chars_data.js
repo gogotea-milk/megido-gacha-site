@@ -1812,6 +1812,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 51,
+        "name": "プルフラス",
+        "style": "バースト",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-02-29",
+        "id": "真51R"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 52,
         "name": "ジズ",
         "style": "バースト",

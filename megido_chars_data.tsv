@@ -138,6 +138,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 真	49	サタナイル	バースト	トルーパー			TRUE		2019-04-02
 真	50	シャミハザ	カウンター	ファイター			TRUE		2018-04-27
 真	51	プルフラス	ラッシュ	ファイター			TRUE		2018-06-01
+真	51	プルフラス	バースト	ファイター	TRUE				2020-02-29
 真	52	ジズ	バースト	スナイパー			TRUE		2018-08-02
 真	53	ベバル	バースト	トルーパー					2019-09-30
 真	54	アバラム	バースト	スナイパー					2019-10-11
