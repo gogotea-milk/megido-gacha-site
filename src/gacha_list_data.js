@@ -243,8 +243,7 @@ export default [
         祖49R: 0.006
       }
     }
-  }
-  */  
+  }  
   {
     name: "寝坊しただと？",
     rate_settings: {
@@ -259,6 +258,7 @@ export default [
       }
     }
   },
+  */  
   {
     name: "男装剣士サバト",
     rate_settings: {
@@ -275,7 +275,7 @@ export default [
     name: "カスピエルC魔吊",
     rate_settings: {
       base_rate: 0.05,
-      megido_back_of: "2020-03-15",
+      megido_back_of: "2020-03-05",
       exclude: megido => {
         return (
           megido.terminus
@@ -290,7 +290,7 @@ export default [
     name: "フォカロルR魔吊",
     rate_settings: {
       base_rate: 0.05,
-      megido_back_of: "2020-03-16",
+      megido_back_of: "2020-03-06",
       exclude: megido => {
         return (
           megido.terminus
@@ -305,7 +305,7 @@ export default [
     name: "フォラス魔吊",
     rate_settings: {
       base_rate: 0.05,
-      megido_back_of: "2020-03-17",
+      megido_back_of: "2020-03-07",
       exclude: megido => {
         return (
           megido.terminus
@@ -320,7 +320,7 @@ export default [
     name: "アバラム魔吊",
     rate_settings: {
       base_rate: 0.05,
-      megido_back_of: "2020-03-18",
+      megido_back_of: "2020-03-08",
       exclude: megido => {
         return (
           megido.terminus
@@ -335,7 +335,7 @@ export default [
     name: "ラウムC魔吊",
     rate_settings: {
       base_rate: 0.05,
-      megido_back_of: "2020-03-19",
+      megido_back_of: "2020-03-09",
       exclude: megido => {
         return (
           megido.terminus
@@ -350,7 +350,7 @@ export default [
     name: "アモンR魔吊",
     rate_settings: {
       base_rate: 0.05,
-      megido_back_of: "2020-03-20",
+      megido_back_of: "2020-03-10",
       exclude: megido => {
         return (
           megido.terminus
