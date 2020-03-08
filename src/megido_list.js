@@ -69,7 +69,7 @@ class MegidoList extends React.Component {
     super(props);
   }
 
-  render() {
+  render() {    
     return (
       <table class="w-full sm:w-auto table-fixed sm:table-auto border-collapse border-2 border-gray-500">
         <thead>
@@ -86,20 +86,10 @@ class MegidoList extends React.Component {
           </tr>
         </thead>
         <tbody>
-          {this.props.megido_chars.map((megido, i) => {
-            const filter_status = this.props.filter_status;
+          {this.props.megido_chars.map((megido, i) => {            
             const megido_exists = this.props.megido_exist_list.includes(
               megido.id
             );
-
-            // prettier-ignore
-            {
-            if(!this.props.filter_settings.clock_type[megido.clock_type][!!megido.regenerated]) return false;
-            if(!this.props.filter_settings.terminus[!!megido.terminus]) return false;
-            if(!this.props.filter_settings.main_evt[!!(megido.main || megido.event)]) return false;                    
-            if(!this.props.filter_settings.exists[megido_exists]) return false;
-            }
-
             return (
               <MegidoRow
                 megido={megido}
