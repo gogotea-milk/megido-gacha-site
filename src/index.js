@@ -224,6 +224,47 @@ class App extends React.Component {
   }
 
   render() {
+
+    const filter_settings = {
+      clock_type: {
+        祖: {
+          true: this.state.filter_clock_type["祖(Re)"],
+          false: this.state.filter_clock_type["祖"]
+        },
+        真: {
+          true: this.state.filter_clock_type["真(Re)"],
+          false: this.state.filter_clock_type["真"]
+        }
+      },
+      terminus: {
+        true: this.state.filter_terminus["テルナミス"],
+        false: this.state.filter_terminus["恒常"]
+      },
+      main_evt: {
+        true: this.state.filter_main_evt["メイン・イベント"],
+        false: this.state.filter_main_evt["ガチャ"]
+      },
+      exists: {
+        true: this.state.filter_exists["召喚済"],
+        false: this.state.filter_exists["未召喚"]
+      } 
+    };
+
+    const filtered_megido_chars = this.megido_chars.filter((megido,i)=>{
+      const megido_exists = this.state.megido_exist_list.includes(
+        megido.id
+      );
+      // prettier-ignore
+      {
+      if(!filter_settings.clock_type[megido.clock_type][!!megido.regenerated]) return false;
+      if(!filter_settings.terminus[!!megido.terminus]) return false;
+      if(!filter_settings.main_evt[!!(megido.main || megido.event)]) return false;                    
+      if(!filter_settings.exists[megido_exists]) return false;
+      }
+
+      return true;
+    });    
+
     return (
       <div className="app" class="container mx-auto px-1 pb-1 text-sm">
         <h1 class="text-2xl mt-6">メギドガチャ被り計算機</h1>
@@ -277,16 +318,10 @@ class App extends React.Component {
         </div>
         <div class="mt-1">
           <MegidoList
-            megido_chars={this.megido_chars}
+            megido_chars={filtered_megido_chars}
             gacha_list_data={this.gacha_list_data}
             megido_gacha_rates={this.megido_gacha_rates}
-            megido_exist_list={this.state.megido_exist_list}
-            filter_status={{
-              clock_type: this.state.filter_clock_type,                            
-              terminus:this.state.filter_terminus,
-              main_evt: this.state.filter_main_evt,
-              exists: this.state.filter_exists,
-            }}
+            megido_exist_list={this.state.megido_exist_list}            
             handleMegidoExistChanged={this.handleMegidoExistChanged}
           />
         </div>

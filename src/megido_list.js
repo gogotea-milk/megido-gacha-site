@@ -69,7 +69,7 @@ class MegidoList extends React.Component {
     super(props);
   }
 
-  render() {
+  render() {    
     return (
       <table class="w-full sm:w-auto table-fixed sm:table-auto border-collapse border-2 border-gray-500">
         <thead>
@@ -86,45 +86,10 @@ class MegidoList extends React.Component {
           </tr>
         </thead>
         <tbody>
-          {this.props.megido_chars.map((megido, i) => {
-            const filter_status = this.props.filter_status;
+          {this.props.megido_chars.map((megido, i) => {            
             const megido_exists = this.props.megido_exist_list.includes(
               megido.id
             );
-            const clock_type =
-              megido.clock_type + (megido.regenerated ? "(Re)" : "");
-
-            if (!filter_status.clock_type[clock_type]) {
-              return "";
-            }
-
-            if (!filter_status.terminus["テルナミス"] && megido.terminus) {
-              return "";
-            }
-            if (!filter_status.terminus["恒常"] && !megido.terminus) {
-              return "";
-            }
-
-            if (
-              !filter_status.main_evt["メイン・イベント"] &&
-              (megido.main || megido.event)
-            ) {
-              return "";
-            }
-            if (
-              !filter_status.main_evt["ガチャ"] &&
-              !(megido.main || megido.event)
-            ) {
-              return "";
-            }
-
-            if (!filter_status.exists["召喚済"] && megido_exists) {
-              return "";
-            }
-            if (!filter_status.exists["未召喚"] && !megido_exists) {
-              return "";
-            }
-
             return (
               <MegidoRow
                 megido={megido}
