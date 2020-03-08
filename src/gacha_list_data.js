@@ -361,4 +361,17 @@ export default [
       }
     }
   },
+  {
+    name: "「仲間」の定義",
+    rate_settings: {
+      megido_back_of: "2020-03-11",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真15R: 0.012,
+        祖44R: 0.006
+      }
+    }
+  },
 ];

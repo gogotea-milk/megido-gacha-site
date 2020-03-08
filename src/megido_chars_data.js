@@ -1552,6 +1552,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 15,
+        "name": "サタナキア",
+        "style": "バースト",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-03-11",
+        "id": "真15R"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 17,
         "name": "ティアマト",
         "style": "カウンター",
