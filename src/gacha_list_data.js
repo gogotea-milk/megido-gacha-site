@@ -271,6 +271,7 @@ export default [
       }
     }
   },
+  /*
   {
     name: "カスピエルC魔吊",
     rate_settings: {
@@ -361,6 +362,7 @@ export default [
       }
     }
   },
+  */
   {
     name: "「仲間」の定義",
     rate_settings: {
