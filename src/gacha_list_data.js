@@ -361,8 +361,7 @@ export default [
         祖7R: 0.02
       }
     }
-  },
-  */
+  },  
   {
     name: "「仲間」の定義",
     rate_settings: {
@@ -373,6 +372,22 @@ export default [
       pickup: {
         真15R: 0.012,
         祖44R: 0.006
+      }
+    }
+  },
+  */
+    {
+    name: "点穴極める悪魔",
+    rate_settings: {
+      megido_back_of: "2020-03-16",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真13: 0.006,
+        真14: 0.006,
+        真15: 0.006,
+        祖36R: 0.006        
       }
     }
   },
