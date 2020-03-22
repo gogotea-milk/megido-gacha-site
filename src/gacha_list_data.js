@@ -375,8 +375,7 @@ export default [
       }
     }
   },
-  */
-    {
+  {
     name: "点穴極める悪魔",
     rate_settings: {
       megido_back_of: "2020-03-16",
@@ -388,6 +387,21 @@ export default [
         真14: 0.006,
         真15: 0.006,
         祖36R: 0.006        
+      }
+    }
+  },
+  */
+  {
+    name: "ぞいお茶会",
+    rate_settings: {
+      megido_back_of: "2020-03-21",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖71: 0.006,        
+        祖54: 0.006,        
+        真11: 0.006
       }
     }
   },
