@@ -389,8 +389,7 @@ export default [
         祖36R: 0.006        
       }
     }
-  },
-  */
+  },  
   {
     name: "ぞいお茶会",
     rate_settings: {
@@ -402,6 +401,22 @@ export default [
         祖71: 0.006,        
         祖54: 0.006,        
         真11: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "武術大会",
+    rate_settings: {
+      megido_back_of: "2020-03-26",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖6: 0.006,        
+        祖22: 0.006,        
+        祖36: 0.006,
+        祖15: 0.006
       }
     }
   },
