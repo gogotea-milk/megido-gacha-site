@@ -1942,6 +1942,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 63,
+        "name": "アマゼロト",
+        "style": "ラッシュ",
+        "class": "トルーパー",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-03-31",
+        "id": "真63"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 64,
         "name": "プロメテウス",
         "style": "バースト",

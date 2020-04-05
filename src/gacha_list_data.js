@@ -257,8 +257,7 @@ export default [
         祖34: 0.006
       }
     }
-  },
-  */  
+  },  
   {
     name: "男装剣士サバト",
     rate_settings: {
@@ -271,7 +270,6 @@ export default [
       }
     }
   },
-  /*
   {
     name: "カスピエルC魔吊",
     rate_settings: {
@@ -403,8 +401,7 @@ export default [
         真11: 0.006
       }
     }
-  },
-  */
+  },  
   {
     name: "武術大会",
     rate_settings: {
@@ -417,6 +414,19 @@ export default [
         祖22: 0.006,        
         祖36: 0.006,
         祖15: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "アマゼロトサバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-03-31",
+      pickup: {
+        真63: 0.012,
+        真58: 0.0035,
+        真64: 0.0035
       }
     }
   },
