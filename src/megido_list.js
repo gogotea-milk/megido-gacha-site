@@ -92,7 +92,7 @@ class MegidoList extends React.Component {
                 key={megido.id}
                 exists={megido_exists}
                 gacha_names={this.props.gacha_list_data.map(v => v.name)}
-                gacha_rates={this.props.megido_gacha_rates[i]}
+                gacha_rates={this.props.megido_gacha_rates_map[megido.id]}
                 handleMegidoExistChanged={this.props.handleMegidoExistChanged}
               />
             );

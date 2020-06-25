@@ -52,9 +52,9 @@ class App extends React.Component {
     });
 
     const gacha_list_data = GachaListData.slice();
-
+    const megido_gacha_rates_map = {};
     const megido_gacha_rates = megido_chars.map(megido => {
-      return gacha_list_data.map(gacha => {
+      let rates = gacha_list_data.map(gacha => {
         return this.calc_rate(
           megido,
           megido_chars,
@@ -62,11 +62,15 @@ class App extends React.Component {
           gacha.rate_settings
         );
       });
+      megido_gacha_rates_map[megido.id] = rates;
+
+      return rates;
     });
 
     this.megido_chars = megido_chars;
     this.gacha_list_data = gacha_list_data;
     this.megido_gacha_rates = megido_gacha_rates;
+    this.megido_gacha_rates_map = megido_gacha_rates_map;
 
     this.handleMegidoExistChanged = this.handleMegidoExistChanged.bind(this);
 
@@ -278,7 +282,6 @@ class App extends React.Component {
         <div>
           <GachaList
             gacha_list_data={this.gacha_list_data}
-            megido_gacha_rates={this.megido_gacha_rates}
             gacha_summary={this.calc_gacha_summary()}
           />
         </div>
@@ -320,7 +323,8 @@ class App extends React.Component {
             megido_chars={filtered_megido_chars}
             gacha_list_data={this.gacha_list_data}
             megido_gacha_rates={this.megido_gacha_rates}
-            megido_exist_list={this.state.megido_exist_list}            
+            megido_gacha_rates_map={this.megido_gacha_rates_map}
+            megido_exist_list={this.state.megido_exist_list}
             handleMegidoExistChanged={this.handleMegidoExistChanged}
           />
         </div>
