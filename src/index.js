@@ -224,7 +224,6 @@ class App extends React.Component {
   }
 
   render() {
-
     const filter_settings = {
       clock_type: {
         祖: {
@@ -247,13 +246,12 @@ class App extends React.Component {
       exists: {
         true: this.state.filter_exists["召喚済"],
         false: this.state.filter_exists["未召喚"]
-      } 
+      }
     };
 
-    const filtered_megido_chars = this.megido_chars.filter((megido,i)=>{
-      const megido_exists = this.state.megido_exist_list.includes(
-        megido.id
-      );
+    const filtered_megido_chars = this.megido_chars.filter((megido, i) => {
+      const megido_exists = this.state.megido_exist_list.includes(megido.id);
+      /* eslint-disable no-lone-blocks*/
       // prettier-ignore
       {
       if(!filter_settings.clock_type[megido.clock_type][!!megido.regenerated]) return false;
@@ -263,14 +261,15 @@ class App extends React.Component {
       }
 
       return true;
-    });    
+    });
+    /* eslint-enable */
 
     return (
-      <div className="app" class="container mx-auto px-1 pb-1 text-sm">
-        <h1 class="text-2xl mt-6">メギドガチャ被り計算機</h1>
-        <div class="my-1">
+      <div className="app container mx-auto px-1 pb-1 text-sm">
+        <h1 className="text-2xl mt-6">メギドガチャ被り計算機</h1>
+        <div className="my-1">
           <a
-            class="text-blue-600 underline hover:text-blue-300"
+            className="text-blue-600 underline hover:text-blue-300"
             href="https://github.com/gogotea-milk/megido-gacha-site"
           >
             このサイトについて
@@ -283,10 +282,10 @@ class App extends React.Component {
             gacha_summary={this.calc_gacha_summary()}
           />
         </div>
-        <div class="text-orange-500 my-3">
+        <div className="text-orange-500 my-3">
           本家は、メギド率が必ず5%（サバト時は10%）を超えるよう、Rオーブ排出率を下げて調整をしているのですが、このサイトでは未対応です。
         </div>
-        <div class="container">
+        <div className="container">
           <FilterToggleGroup
             filter_label={this.filter_label.clock_type}
             filter_status={this.state.filter_clock_type}
@@ -316,7 +315,7 @@ class App extends React.Component {
             }
           />
         </div>
-        <div class="mt-1">
+        <div className="mt-1">
           <MegidoList
             megido_chars={filtered_megido_chars}
             gacha_list_data={this.gacha_list_data}

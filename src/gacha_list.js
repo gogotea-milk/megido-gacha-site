@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { sprintf } from "sprintf-js";
 
 function to_percent(num) {
@@ -8,39 +7,37 @@ function to_percent(num) {
 }
 
 class GachaList extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
-      <table class="table-auto border-collapse border-2 border-gray-500">
+      <table className="table-auto border-collapse border-2 border-gray-500">
         <thead>
-          <th class="border border-gray-400 p-1 text-gray-800 bg-green-100">
-            ガチャ名
-          </th>
-          <th class="border border-gray-400 p-1 text-gray-800 bg-green-100">
-            新規メギド率
-          </th>
-          <th class="border border-gray-400 p-1 text-gray-800 bg-green-100">
-            メギド被り率
-          </th>
-          <th class="border border-gray-400 p-1 text-gray-800 bg-green-100">
-            メギド当たり率
-          </th>
+          <tr>
+            <th className="border border-gray-400 p-1 text-gray-800 bg-green-100">
+              ガチャ名
+            </th>
+            <th className="border border-gray-400 p-1 text-gray-800 bg-green-100">
+              新規メギド率
+            </th>
+            <th className="border border-gray-400 p-1 text-gray-800 bg-green-100">
+              メギド被り率
+            </th>
+            <th className="border border-gray-400 p-1 text-gray-800 bg-green-100">
+              メギド当たり率
+            </th>
+          </tr>
         </thead>
         <tbody>
           {this.props.gacha_list_data.map((gacha, index) => {
             return (
-              <tr>
-                <td class="border px-1">{gacha.name}</td>
-                <td class="border text-right pr-1">
+              <tr key="{index}">
+                <td className="border px-1">{gacha.name}</td>
+                <td className="border text-right pr-1">
                   {to_percent(this.props.gacha_summary[index].new_megido)}
                 </td>
-                <td class="border text-right pr-1">
+                <td className="border text-right pr-1">
                   {to_percent(this.props.gacha_summary[index].dup_megido)}
                 </td>
-                <td class="border text-right pr-1">
+                <td className="border text-right pr-1">
                   {to_percent(this.props.gacha_summary[index].megido)}
                 </td>
               </tr>

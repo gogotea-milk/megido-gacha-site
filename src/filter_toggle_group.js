@@ -17,7 +17,7 @@ class FilterToggleGroup extends React.Component {
 
     const unchecked_classes = "bg-gray-500 hover:bg-blue-700 text-gray-200";
     return (
-      <div class="my-2">
+      <div className="my-2">
         {this.props.filter_label.map((v, i) => {
           return (
             <button
