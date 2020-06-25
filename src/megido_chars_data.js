@@ -512,6 +512,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 26,
+        "name": "ブネ",
+        "style": "バースト",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-05-30",
+        "id": "祖26R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 27,
         "name": "ロノウェ",
         "style": "カウンター",
@@ -639,6 +652,19 @@
         "terminus": false,
         "implemented": null,
         "id": "祖34"
+    },
+    {
+        "clock_type": "祖",
+        "clock_id": 34,
+        "name": "フルフル",
+        "style": "カウンター",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-04-10",
+        "id": "祖34R"
     },
     {
         "clock_type": "祖",
@@ -1240,6 +1266,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 66,
+        "name": "キマリス",
+        "style": "カウンター",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2020-04-24",
+        "id": "祖66R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 67,
         "name": "アムドゥスキアス",
         "style": "カウンター",
@@ -1406,6 +1445,19 @@
         "terminus": true,
         "implemented": "2018-01-31",
         "id": "真4"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 4,
+        "name": "ユフィール",
+        "style": "カウンター",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": true,
+        "implemented": "2020-04-30",
+        "id": "真4R"
     },
     {
         "clock_type": "真",
@@ -1591,6 +1643,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 18,
+        "name": "ブニ",
+        "style": "バースト",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2020-05-20",
+        "id": "真18R"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 19,
         "name": "オリエンス",
         "style": "ラッシュ",
@@ -1666,6 +1731,19 @@
         "terminus": true,
         "implemented": "2019-11-30",
         "id": "真25"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 26,
+        "name": "オレイ",
+        "style": "カウンター",
+        "class": "ファイター",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-04-21",
+        "id": "真26"
     },
     {
         "clock_type": "真",

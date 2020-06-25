@@ -419,14 +419,16 @@ export default [
   },
   */
   {
-    name: "アマゼロトサバト",
-    rate_settings: {
-      base_rate: 0.1,
-      megido_back_of: "2020-03-31",
-      pickup: {
-        真63: 0.012,
-        真58: 0.0035,
-        真64: 0.0035
+    name: "共闘ビルドアップ",
+    rate_settings: {      
+      megido_back_of: "2020-06-19",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {        
+        真27: 0.006,
+        祖18R: 0.006,
+        祖36R: 0.006
       }
     }
   },
