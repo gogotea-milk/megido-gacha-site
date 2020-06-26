@@ -417,7 +417,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "共闘ビルドアップ",
     rate_settings: {      
@@ -432,4 +431,20 @@ export default [
       }
     }
   },
+  */
+  {
+    name: "ガールズトーク",
+    rate_settings: {
+      megido_back_of: "2020-06-26",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖45: 0.006,
+        祖67: 0.006,
+        祖5: 0.006,
+        真3R: 0.006
+      }
+    }
+  }
 ];
