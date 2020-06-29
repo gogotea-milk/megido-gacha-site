@@ -2108,6 +2108,19 @@
         "terminus": true,
         "implemented": "2019-07-31",
         "id": "真71"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 73,
+        "name": "アザゼル（仮）",
+        "style": "ラッシュ",
+        "class": "ファイター",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-07-05",
+        "id": "真73"
     }
 ];
     

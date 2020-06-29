@@ -431,7 +431,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "ガールズトーク",
     rate_settings: {
@@ -444,6 +443,61 @@ export default [
         祖67: 0.006,
         祖5: 0.006,
         真3R: 0.006
+      }
+    }
+  }
+  */
+  {
+    name: "定期検診サバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-06-29",
+      pickup: {
+        真4: 0.0035,
+        真57: 0.0035,
+        真70: 0.0035,
+        真71: 0.0035
+      }
+    }
+  },
+  {
+    name: "鉄の掟サバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-07-05",
+      pickup: {
+        真73: 0.012,
+      }
+    }
+  },  
+  {
+    name: "コレチケ5枚",
+    rate_settings: {
+      base_rate: 1.0,
+      megido_back_of: "2020-06-27"
+    }
+  },
+  {
+    name: "コレチケ10枚",
+    rate_settings: {
+      base_rate: 1.0,
+      megido_back_of: "2020-06-27",
+      exclude: megido => {
+        return !(
+          megido.clock_type === "真" ||
+          megido.regenerated ||
+          megido.terminus
+        );
+      }
+    }
+  },
+  {
+    name: "コレチケ15枚",
+    rate_settings: {
+      base_rate: 1.0,
+      megido_back_of: "2020-06-27",
+      exclude: megido => {
+        return !(megido.regenerated || megido.terminus);
       }
     }
   }
