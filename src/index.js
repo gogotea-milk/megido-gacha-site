@@ -21,7 +21,9 @@ class App extends React.Component {
           )
         )
       : [];
-    console.log("loaded from hash", megido_exist_list);
+    megido_exist_list = megido_exist_list.filter(v=>v.indexOf('73') < 0); // Removes temporary used megido id
+    console.log("loaded and filtered from hash", megido_exist_list);
+    
 
     const clock_type_order = {
       祖: 0,

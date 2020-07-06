@@ -134,6 +134,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 真	25	ニスロク	ラッシュ	ファイター				TRUE	2019-11-30
 真	26	オレイ	カウンター	ファイター					2020-04-21
 真	27	マルチネ	バースト	ファイター					2019-05-31
+真	28	アザゼル	ラッシュ	ファイター					2020-07-05
 真	31	フルーレティ	カウンター	スナイパー					2019-08-31
 真	33	ハック	カウンター	ファイター			TRUE		2019-06-01
 真	36	メフィスト	カウンター	スナイパー	TRUE		TRUE		2019-03-12
@@ -161,4 +162,3 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 真	69	バールゼフォン	バースト	スナイパー				TRUE	2019-04-30
 真	70	アスラフィル	ラッシュ	トルーパー				TRUE	2019-06-30
 真	71	アクィエル	カウンター	スナイパー				TRUE	2019-07-31
-真	73	アザゼル（仮）	ラッシュ	ファイター					2020-07-05

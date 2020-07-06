@@ -445,8 +445,7 @@ export default [
         真3R: 0.006
       }
     }
-  }
-  */
+  },  
   {
     name: "定期検診サバト",
     rate_settings: {
@@ -460,13 +459,14 @@ export default [
       }
     }
   },
+  */
   {
     name: "鉄の掟サバト",
     rate_settings: {
       base_rate: 0.1,
       megido_back_of: "2020-07-05",
       pickup: {
-        真73: 0.012,
+        真28: 0.012,
       }
     }
   },  
