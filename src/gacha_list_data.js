@@ -459,7 +459,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "鉄の掟サバト",
     rate_settings: {
@@ -469,7 +468,83 @@ export default [
         真28: 0.012,
       }
     }
-  },  
+  },
+  */
+  {
+    name: "アマゼロト魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-07-10",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        真63: 0.02
+      }
+    }
+  },
+  {
+    name: "バティンB魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-07-11",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        祖18R: 0.02
+      }
+    }
+  },
+  {
+    name: "シャックスB魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-07-12",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        祖44R: 0.02
+      }
+    }
+  },
+  {
+    name: "フェニックスC魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-07-13",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        祖37R: 0.02
+      }
+    }
+  },
+  {
+    name: "フォカロルR魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-07-14",
+      exclude: megido => {
+        return (
+          megido.terminus
+        );
+      },
+      pickup: {
+        祖41R: 0.02
+      }
+    }
+  },
   {
     name: "コレチケ5枚",
     rate_settings: {
