@@ -70,6 +70,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 祖	45	ヴィネ	ラッシュ	スナイパー	TRUE				2018-10-10
 祖	45	ヴィネ	バースト	スナイパー					
 祖	46	ビフロンス	ラッシュ	トルーパー					
+祖	46	ビフロンス	カウンター	トルーパー	TRUE				2020-07-15
 祖	47	ウヴァル	ラッシュ	ファイター					
 祖	48	ハーゲンティ	カウンター	トルーパー					2017-12-29
 祖	48	ハーゲンティ	バースト	トルーパー	TRUE		TRUE		2018-11-27

@@ -928,6 +928,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 46,
+        "name": "ビフロンス",
+        "style": "カウンター",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-07-15",
+        "id": "祖46R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 47,
         "name": "ウヴァル",
         "style": "ラッシュ",

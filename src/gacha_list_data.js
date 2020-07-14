@@ -476,9 +476,7 @@ export default [
       base_rate: 0.05,
       megido_back_of: "2020-07-10",
       exclude: megido => {
-        return (
-          megido.terminus
-        );
+        return megido.terminus;
       },
       pickup: {
         真63: 0.02
@@ -491,9 +489,7 @@ export default [
       base_rate: 0.05,
       megido_back_of: "2020-07-11",
       exclude: megido => {
-        return (
-          megido.terminus
-        );
+        return megido.terminus;
       },
       pickup: {
         祖18R: 0.02
@@ -506,9 +502,7 @@ export default [
       base_rate: 0.05,
       megido_back_of: "2020-07-12",
       exclude: megido => {
-        return (
-          megido.terminus
-        );
+        return megido.terminus;
       },
       pickup: {
         祖44R: 0.02
@@ -521,9 +515,7 @@ export default [
       base_rate: 0.05,
       megido_back_of: "2020-07-13",
       exclude: megido => {
-        return (
-          megido.terminus
-        );
+        return megido.terminus;
       },
       pickup: {
         祖37R: 0.02
@@ -536,15 +528,14 @@ export default [
       base_rate: 0.05,
       megido_back_of: "2020-07-14",
       exclude: megido => {
-        return (
-          megido.terminus
-        );
+        return megido.terminus;
       },
       pickup: {
         祖41R: 0.02
       }
     }
   },
+  /*
   {
     name: "コレチケ5枚",
     rate_settings: {
@@ -573,6 +564,19 @@ export default [
       megido_back_of: "2020-06-27",
       exclude: megido => {
         return !(megido.regenerated || megido.terminus);
+      }
+    }
+  }
+  */
+  {
+    name: "死に意味を与える者",
+    rate_settings: {
+      megido_back_of: "2020-7-15",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖46R: 0.012,
       }
     }
   }
