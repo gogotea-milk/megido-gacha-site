@@ -469,7 +469,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "アマゼロト魔吊",
     rate_settings: {
@@ -535,7 +534,6 @@ export default [
       }
     }
   },
-  /*
   {
     name: "コレチケ5枚",
     rate_settings: {
@@ -577,6 +575,22 @@ export default [
       },
       pickup: {
         祖46R: 0.012,
+        祖39: 0.006
+      }
+    }
+  },
+  {
+    name: "戦場ラプソディ",
+    rate_settings: {
+      megido_back_of: "2020-7-21",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真53: 0.006,
+        真54: 0.006,
+        祖8R: 0.006,
+        祖49R: 0.006
       }
     }
   }
