@@ -564,8 +564,7 @@ export default [
         return !(megido.regenerated || megido.terminus);
       }
     }
-  }
-  */
+  },
   {
     name: "死に意味を与える者",
     rate_settings: {
@@ -591,6 +590,19 @@ export default [
         真54: 0.006,
         祖8R: 0.006,
         祖49R: 0.006
+      }
+    }
+  }*/
+  {
+    name: "女番長密着取材",
+    rate_settings: {
+      megido_back_of: "2020-7-26",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖15R: 0.006,
+        真31: 0.006,
       }
     }
   }
