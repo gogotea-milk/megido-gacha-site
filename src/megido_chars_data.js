@@ -1357,6 +1357,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 71,
+        "name": "ダンタリオン",
+        "style": "ラッシュ",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-07-31",
+        "id": "祖71R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 72,
         "name": "アンドロマリウス",
         "style": "ラッシュ",
@@ -1887,6 +1900,19 @@
         "terminus": false,
         "implemented": "2019-04-30",
         "id": "真43"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 48,
+        "name": "8章2節メギド",
+        "style": "ラッシュ",
+        "class": "スナイパー",
+        "regenerated": false,
+        "main": true,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-07-27",
+        "id": "真48"
     },
     {
         "clock_type": "真",

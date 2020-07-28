@@ -605,5 +605,17 @@ export default [
         真31: 0.006,
       }
     }
-  }
+  },
+  {
+    name: "儂っ娘サバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-07-31",
+      pickup: {
+        祖71R: 0.012,
+        真68: 0.0035,
+        真4R: 0.0035, 
+      }
+    }
+  },
 ];
