@@ -1904,7 +1904,7 @@
     {
         "clock_type": "真",
         "clock_id": 48,
-        "name": "8章2節メギド",
+        "name": "ウトゥック",
         "style": "ラッシュ",
         "class": "スナイパー",
         "regenerated": false,

@@ -592,7 +592,7 @@ export default [
         祖49R: 0.006
       }
     }
-  }*/
+  },
   {
     name: "女番長密着取材",
     rate_settings: {
@@ -606,6 +606,7 @@ export default [
       }
     }
   },
+  */
   {
     name: "儂っ娘サバト",
     rate_settings: {
@@ -615,6 +616,22 @@ export default [
         祖71R: 0.012,
         真68: 0.0035,
         真4R: 0.0035, 
+      }
+    }
+  },
+  {
+    name: "憩いのシーサイド",
+    rate_settings: {
+      megido_back_of: "2020-08-05",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖10: 0.006,
+        祖46: 0.006,
+        真15: 0.006,
+        祖46R: 0.006,
+        真15R: 0.006,        
       }
     }
   },
