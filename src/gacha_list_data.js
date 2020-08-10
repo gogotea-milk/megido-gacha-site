@@ -606,7 +606,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "儂っ娘サバト",
     rate_settings: {
@@ -635,4 +634,18 @@ export default [
       }
     }
   },
+  */
+  {
+    name: "怪しい仮面の隠遁者",
+    rate_settings: {
+      megido_back_of: "2020-08-10",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖55R: 0.012,
+        祖14: 0.006,
+      }
+    }
+  }
 ];

@@ -82,6 +82,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 祖	53	カイム	カウンター	スナイパー					
 祖	54	ムルムル	ラッシュ	スナイパー					
 祖	55	オロバス	ラッシュ	スナイパー					
+祖	55	オロバス	カウンター	スナイパー	TRUE				2020-08-10
 祖	56	グレモリー	カウンター	ファイター					
 祖	57	オセ	ラッシュ	ファイター					
 祖	58	アミー	バースト	トルーパー					

@@ -1084,6 +1084,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 55,
+        "name": "オロバス",
+        "style": "カウンター",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-08-10",
+        "id": "祖55R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 56,
         "name": "グレモリー",
         "style": "カウンター",
