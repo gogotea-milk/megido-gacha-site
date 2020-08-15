@@ -647,5 +647,18 @@ export default [
         祖14: 0.006,
       }
     }
-  }
+  },
+  {
+    name: "カッコカワイイ",
+    rate_settings: {
+      megido_back_of: "2020-08-15",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真53: 0.006,
+        真54: 0.006,
+      }
+    }
+  },
 ];
