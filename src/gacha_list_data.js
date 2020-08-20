@@ -634,7 +634,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "怪しい仮面の隠遁者",
     rate_settings: {
@@ -661,4 +660,20 @@ export default [
       }
     }
   },
+  */
+  {
+    name: "イカしたメンツ",
+    rate_settings: {
+      megido_back_of: "2020-08-20",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖43: 0.006,
+        祖62: 0.006,
+        祖36: 0.006,
+        祖4: 0.006
+      }
+    }
+  }
 ];
