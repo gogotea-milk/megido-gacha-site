@@ -660,7 +660,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "イカしたメンツ",
     rate_settings: {
@@ -673,6 +672,23 @@ export default [
         祖62: 0.006,
         祖36: 0.006,
         祖4: 0.006
+      }
+    }
+  },
+    */
+  {
+    name: "サンシャイン",
+    rate_settings: {
+      megido_back_of: "2020-08-25",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖67: 0.006,
+        祖22: 0.006,
+        真3: 0.006,
+        真3R: 0.006,
+        真22R: 0.006
       }
     }
   }
