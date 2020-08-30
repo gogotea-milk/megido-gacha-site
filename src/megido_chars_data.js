@@ -1357,6 +1357,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 70,
+        "name": "セーレ",
+        "style": "ラッシュ",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2020-08-28",
+        "id": "祖70R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 71,
         "name": "ダンタリオン",
         "style": "バースト",
@@ -2043,6 +2056,19 @@
         "terminus": true,
         "implemented": "2018-11-30",
         "id": "真57"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 57,
+        "name": "ベヒモス",
+        "style": "バースト",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": true,
+        "implemented": "2020-08-31",
+        "id": "真57R"
     },
     {
         "clock_type": "真",

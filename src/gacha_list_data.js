@@ -217,7 +217,7 @@ export default [
     }
   },
   {
-    name: "ベバル魔吊n",
+    name: "ベバル魔吊",
     rate_settings: {
       base_rate: 0.05,
       megido_back_of: "2020-02-19",
@@ -691,5 +691,18 @@ export default [
         真22R: 0.006
       }
     }
-  }
+  },
+  {
+    name: "オレの爪サバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-08-31",
+      pickup: {
+        真57R: 0.007,        
+        真23: 0.0035,
+        真25: 0.0035,
+        真64: 0.0035,
+      }
+    }
+  },
 ];
