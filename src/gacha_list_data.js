@@ -675,7 +675,6 @@ export default [
       }
     }
   },
-    */
   {
     name: "サンシャイン",
     rate_settings: {
@@ -705,4 +704,19 @@ export default [
       }
     }
   },
+  */
+  {
+    name: "雅な着こなし",
+    rate_settings: {
+      megido_back_of: "2020-09-05",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖23: 0.006,
+        祖28: 0.006,
+        祖23R: 0.006
+      }
+    }
+  }
 ];
