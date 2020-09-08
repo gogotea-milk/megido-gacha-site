@@ -718,5 +718,18 @@ export default [
         祖23R: 0.006
       }
     }
+  },
+  {
+    name: "ジズリジェネ",
+    rate_settings: {
+      megido_back_of: "2020-09-10",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真52R: 0.012,
+        祖54: 0.006
+      }
+    }
   }
 ];

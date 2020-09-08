@@ -2007,6 +2007,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 52,
+        "name": "ジズ",
+        "style": "ラッシュ",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-09-10",
+        "id": "真52R"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 53,
         "name": "ベバル",
         "style": "バースト",
