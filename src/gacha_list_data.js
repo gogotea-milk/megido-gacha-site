@@ -704,7 +704,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "雅な着こなし",
     rate_settings: {
@@ -729,6 +728,20 @@ export default [
       pickup: {
         真52R: 0.012,
         祖54: 0.006
+      }
+    }
+  }
+  */
+  {
+    name: "混ぜるな危険",
+    rate_settings: {
+      megido_back_of: "2020-09-15",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真19: 0.006,
+        祖41R: 0.006
       }
     }
   }
