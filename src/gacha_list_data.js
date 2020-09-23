@@ -730,8 +730,7 @@ export default [
         祖54: 0.006
       }
     }
-  }
-  */
+  },  
   {
     name: "混ぜるな危険",
     rate_settings: {
@@ -742,6 +741,23 @@ export default [
       pickup: {
         真19: 0.006,
         祖41R: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "手数の多さスター",
+    rate_settings: {
+      megido_back_of: "2020-09-20",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖16: 0.006,
+        祖29: 0.006,
+        祖47: 0.006,
+        真2: 0.006,
+        祖7R: 0.006
       }
     }
   }
