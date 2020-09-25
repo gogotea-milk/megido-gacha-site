@@ -744,7 +744,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "手数の多さスター",
     rate_settings: {
@@ -758,6 +757,22 @@ export default [
         祖47: 0.006,
         真2: 0.006,
         祖7R: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "聡明少女怪しい仮面",
+    rate_settings: {
+      megido_back_of: "2020-09-25",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖55: 0.006,
+        祖55R: 0.006,
+        祖71: 0.006,
+        祖71R: 0.006,
       }
     }
   }
