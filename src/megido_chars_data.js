@@ -1773,6 +1773,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 24,
+        "name": "ミノソン",
+        "style": "バースト",
+        "class": "スナイパー",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": true,
+        "implemented": "2020-09-30",
+        "id": "真24"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 25,
         "name": "ニスロク",
         "style": "ラッシュ",
@@ -1900,6 +1913,19 @@
         "terminus": false,
         "implemented": "2019-02-14",
         "id": "真38R"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 40,
+        "name": "グザファン",
+        "style": "ラッシュ",
+        "class": "スナイパー",
+        "regenerated": false,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2020-09-29",
+        "id": "真40"
     },
     {
         "clock_type": "真",
