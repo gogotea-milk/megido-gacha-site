@@ -760,7 +760,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "聡明少女怪しい仮面",
     rate_settings: {
@@ -789,4 +788,21 @@ export default [
       }
     }
   },
+  */
+  {
+    name: "魅惑のオールナイト",
+    rate_settings: {
+      megido_back_of: "2020-10-05",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖60: 0.006,
+        祖4: 0.006,
+        真36: 0.006,
+        真9R: 0.006,
+        真22R: 0.006
+      }
+    }
+  }
 ];
