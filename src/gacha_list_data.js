@@ -788,7 +788,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "魅惑のオールナイト",
     rate_settings: {
@@ -802,6 +801,20 @@ export default [
         真36: 0.006,
         真9R: 0.006,
         真22R: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "死に真摯！",
+    rate_settings: {
+      megido_back_of: "2020-10-10",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真16: 0.012,
+        祖46R: 0.006
       }
     }
   }

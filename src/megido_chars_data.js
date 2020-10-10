@@ -1669,6 +1669,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 16,
+        "name": "タナトス",
+        "style": "カウンター",
+        "class": "トルーパー",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-10-10",
+        "id": "真16"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 17,
         "name": "ティアマト",
         "style": "カウンター",
