@@ -804,7 +804,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "死に真摯！",
     rate_settings: {
@@ -815,6 +814,20 @@ export default [
       pickup: {
         真16: 0.012,
         祖46R: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "親孝行メギド",
+    rate_settings: {
+      megido_back_of: "2020-10-16",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖40R: 0.006,
+        祖44R: 0.006,
       }
     }
   }
