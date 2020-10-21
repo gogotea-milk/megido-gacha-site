@@ -817,7 +817,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "親孝行メギド",
     rate_settings: {
@@ -828,6 +827,22 @@ export default [
       pickup: {
         祖40R: 0.006,
         祖44R: 0.006,
+      }
+    }
+  }, 
+  */
+  {
+    name: "バッド＆スイート",
+    rate_settings: {
+      megido_back_of: "2020-10-21",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖16: 0.006,
+        祖16R: 0.006,
+        祖64: 0.006,
+        祖5: 0.006
       }
     }
   }
