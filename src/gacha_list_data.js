@@ -830,7 +830,6 @@ export default [
       }
     }
   }, 
-  */
   {
     name: "バッド＆スイート",
     rate_settings: {
@@ -843,6 +842,20 @@ export default [
         祖16R: 0.006,
         祖64: 0.006,
         祖5: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "切れてるレディ",
+    rate_settings: {
+      megido_back_of: "2020-10-26",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真17: 0.006,
+        真38R: 0.006
       }
     }
   }
