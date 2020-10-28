@@ -1851,6 +1851,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 30,
+        "name": "バラキエル",
+        "style": "カウンター",
+        "class": "スナイパー",
+        "regenerated": false,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2020-10-29",
+        "id": "真30"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 31,
         "name": "フルーレティ",
         "style": "カウンター",
@@ -2147,6 +2160,19 @@
         "terminus": false,
         "implemented": "2020-01-31",
         "id": "真59"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 61,
+        "name": "フィロタヌス",
+        "style": "バースト",
+        "class": "スナイパー",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-10-31",
+        "id": "真61"
     },
     {
         "clock_type": "真",
