@@ -845,7 +845,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "切れてるレディ",
     rate_settings: {
@@ -872,4 +871,20 @@ export default [
       }
     }
   },
+  */
+  {
+    name: "パワーが肝心！",
+    rate_settings: {
+      megido_back_of: "2020-11-05",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖38: 0.006,
+        祖26R: 0.006,
+        祖35R: 0.006,
+        祖36R: 0.006
+      }
+    }
+  }
 ];
