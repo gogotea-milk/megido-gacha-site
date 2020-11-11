@@ -871,7 +871,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "パワーが肝心！",
     rate_settings: {
@@ -884,6 +883,22 @@ export default [
         祖26R: 0.006,
         祖35R: 0.006,
         祖36R: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "瀕死はチャンス！",
+    rate_settings: {
+      megido_back_of: "2020-11-09",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖28: 0.006,
+        祖52: 0.006,
+        真9R: 0.006,
+        真22R: 0.006
       }
     }
   }
