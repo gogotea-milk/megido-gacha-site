@@ -886,7 +886,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "瀕死はチャンス！",
     rate_settings: {
@@ -899,6 +898,46 @@ export default [
         祖52: 0.006,
         真9R: 0.006,
         真22R: 0.006
+      }
+    }
+  }
+  */
+  {
+    name: "熱血対応！サバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-11-22",
+      pickup: {
+        真44: 0.007,
+        真23: 0.0035,
+        真25: 0.0035,
+        真68: 0.0035
+      }
+    }
+  },
+  {
+    name: "生ける伝説たち",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-12-01",
+      pickup: {
+        真44: 0.0035,
+        真69: 0.0035,
+        真4R: 0.0035,
+        真57R: 0.0035
+      }
+    }
+  },
+  {
+    name: "ベリアルBサバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2020-12-07",
+      pickup: {
+        祖68R: 0.012,
+        真24: 0.0035,
+        真64: 0.0035,
+        真61: 0.01
       }
     }
   }

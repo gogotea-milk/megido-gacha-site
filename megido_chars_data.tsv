@@ -101,6 +101,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 祖	66	キマリス	カウンター	トルーパー	TRUE		TRUE		2020-04-24
 祖	67	アムドゥスキアス	カウンター	スナイパー					
 祖	68	ベリアル	ラッシュ	スナイパー		TRUE			2018-05-24
+祖	68	ベリアル	バースト	スナイパー	TRUE				2020-12-07
 祖	69	デカラビア	ラッシュ	スナイパー					2018-01-17
 祖	70	セーレ	カウンター	ファイター					
 祖	70	セーレ	ラッシュ	ファイター	TRUE		TRUE		2020-08-28
@@ -151,6 +152,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 真	40	グザファン	ラッシュ	スナイパー			TRUE		2020-09-29
 真	41	アマイモン	カウンター	ファイター					2018-07-13
 真	43	サルガタナス	バースト	スナイパー		TRUE			2019-04-30
+真	44	タムス	バースト	ファイター				TRUE	2020-11-22
 真	48	ウトゥック	ラッシュ	スナイパー		TRUE			2020-07-27
 真	49	サタナイル	バースト	トルーパー			TRUE		2019-04-02
 真	50	シャミハザ	カウンター	ファイター			TRUE		2018-04-27

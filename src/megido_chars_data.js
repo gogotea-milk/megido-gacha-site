@@ -1331,6 +1331,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 68,
+        "name": "ベリアル",
+        "style": "バースト",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-12-07",
+        "id": "祖68R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 69,
         "name": "デカラビア",
         "style": "ラッシュ",
@@ -1978,6 +1991,19 @@
         "terminus": false,
         "implemented": "2019-04-30",
         "id": "真43"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 44,
+        "name": "タムス",
+        "style": "バースト",
+        "class": "ファイター",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": true,
+        "implemented": "2020-11-22",
+        "id": "真44"
     },
     {
         "clock_type": "真",
