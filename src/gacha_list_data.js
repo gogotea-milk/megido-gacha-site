@@ -900,8 +900,7 @@ export default [
         真22R: 0.006
       }
     }
-  }
-  */
+  },
   {
     name: "熱血対応！サバト",
     rate_settings: {
@@ -928,6 +927,7 @@ export default [
       }
     }
   },
+    */
   {
     name: "ベリアルBサバト",
     rate_settings: {
@@ -937,7 +937,7 @@ export default [
         祖68R: 0.012,
         真24: 0.0035,
         真64: 0.0035,
-        真61: 0.01
+        真61: 0.006
       }
     }
   }
