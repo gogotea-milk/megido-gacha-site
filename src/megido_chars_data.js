@@ -499,6 +499,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 25,
+        "name": "グラシャラボラス",
+        "style": "カウンター",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-12-14",
+        "id": "祖25R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 26,
         "name": "ブネ",
         "style": "ラッシュ",

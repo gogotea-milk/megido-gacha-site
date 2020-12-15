@@ -927,7 +927,6 @@ export default [
       }
     }
   },
-    */
   {
     name: "ベリアルBサバト",
     rate_settings: {
@@ -938,6 +937,20 @@ export default [
         真24: 0.0035,
         真64: 0.0035,
         真61: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "轟くレジェンド！",
+    rate_settings: {
+      megido_back_of: "2020-12-14",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖25R: 0.012,
+        祖17: 0.006
       }
     }
   }

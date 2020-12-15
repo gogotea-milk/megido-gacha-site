@@ -37,6 +37,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 祖	23	アイム	バースト	スナイパー					
 祖	24	ナベリウス	ラッシュ	トルーパー					
 祖	25	グラシャラボラス	バースト	トルーパー					
+祖	25	グラシャラボラス	カウンター	トルーパー	TRUE				2020-12-14
 祖	26	ブネ	ラッシュ	ファイター		TRUE			
 祖	26	ブネ	バースト	ファイター	TRUE				2020-05-30
 祖	27	ロノウェ	カウンター	ファイター					
