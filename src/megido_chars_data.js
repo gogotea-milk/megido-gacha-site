@@ -1370,6 +1370,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 69,
+        "name": "デカラビア",
+        "style": "バースト",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2020-12-11",
+        "id": "祖69R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 70,
         "name": "セーレ",
         "style": "カウンター",

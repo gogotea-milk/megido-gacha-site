@@ -104,6 +104,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 祖	68	ベリアル	ラッシュ	スナイパー		TRUE			2018-05-24
 祖	68	ベリアル	バースト	スナイパー	TRUE				2020-12-07
 祖	69	デカラビア	ラッシュ	スナイパー					2018-01-17
+祖	69	デカラビア	バースト	スナイパー	TRUE		TRUE		2020-12-11
 祖	70	セーレ	カウンター	ファイター					
 祖	70	セーレ	ラッシュ	ファイター	TRUE		TRUE		2020-08-28
 祖	71	ダンタリオン	バースト	スナイパー					

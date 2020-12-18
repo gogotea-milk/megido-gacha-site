@@ -940,7 +940,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "轟くレジェンド！",
     rate_settings: {
@@ -951,6 +950,22 @@ export default [
       pickup: {
         祖25R: 0.012,
         祖17: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "ふわもこスノー",
+    rate_settings: {
+      megido_back_of: "2020-12-18",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖31: 0.006,
+        祖72: 0.006,
+        祖45R: 0.006,
+        祖29R: 0.006
       }
     }
   }
