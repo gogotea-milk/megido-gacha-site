@@ -968,5 +968,122 @@ export default [
         祖29R: 0.006
       }
     }
+  },
+  {
+    name: "ジズR魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-12-22",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真52R: 0.02
+      }
+    }
+  },
+  {
+    name: "バティンB魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-12-23",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖18R: 0.02
+      }
+    }
+  },
+  {
+    name: "フルフルC魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-12-24",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖34R: 0.02
+      }
+    }
+  },
+  {
+    name: "アイムR魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-12-25",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖23R: 0.02
+      }
+    }
+  },
+  {
+    name: "フォカロルR魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-12-26",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖41R: 0.02
+      }
+    }
+  },
+  {
+    name: "ブネB魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-12-27",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖26R: 0.02
+      }
+    }
+  },
+  {
+    name: "サタナキアB魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-12-28",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真15R: 0.02
+      }
+    }
+  },
+  {
+    name: "ビフロンスC魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-12-29",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖46R: 0.02
+      }
+    }
+  },
+  {
+    name: "クロケルR魔吊",
+    rate_settings: {
+      base_rate: 0.05,
+      megido_back_of: "2020-12-30",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        祖49R: 0.02
+      }
+    }
   }
 ];
