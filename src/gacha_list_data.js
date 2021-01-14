@@ -953,7 +953,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "ふわもこスノー",
     rate_settings: {
@@ -1083,6 +1082,20 @@ export default [
       },
       pickup: {
         祖49R: 0.02
+      }
+    }
+  },
+  */
+  {
+    name: "悲劇を乗り越えし策王",
+    rate_settings: {
+      megido_back_of: "2021-01-15",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真41R: 0.012,
+        祖41R: 0
       }
     }
   }

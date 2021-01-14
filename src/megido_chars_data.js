@@ -1929,6 +1929,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 34,
+        "name": "マスティマ",
+        "style": "カウンター",
+        "class": "トルーパー",
+        "regenerated": false,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2021-01-02",
+        "id": "真34"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 36,
         "name": "メフィスト",
         "style": "カウンター",
@@ -2007,6 +2020,19 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 41,
+        "name": "アマイモン",
+        "style": "ラッシュ",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-01-15",
+        "id": "真41R"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 43,
         "name": "サルガタナス",
         "style": "バースト",
@@ -2030,6 +2056,19 @@
         "terminus": true,
         "implemented": "2020-11-22",
         "id": "真44"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 47,
+        "name": "ヴェルドレ",
+        "style": "バースト",
+        "class": "スナイパー",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": true,
+        "implemented": "2021-01-01",
+        "id": "真47"
     },
     {
         "clock_type": "真",
@@ -2277,6 +2316,19 @@
         "terminus": false,
         "implemented": "2019-08-26",
         "id": "真65"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 66,
+        "name": "マモン",
+        "style": "ラッシュ",
+        "class": "スナイパー",
+        "regenerated": false,
+        "main": true,
+        "event": false,
+        "terminus": false,
+        "implemented": "2020-12-22",
+        "id": "真66"
     },
     {
         "clock_type": "真",
