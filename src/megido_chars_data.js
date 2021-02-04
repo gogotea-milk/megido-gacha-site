@@ -1032,6 +1032,19 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 50,
+        "name": "フルカス",
+        "style": "カウンター",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-01-31",
+        "id": "祖50R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 51,
         "name": "バラム",
         "style": "カウンター",
@@ -1575,6 +1588,19 @@
         "terminus": false,
         "implemented": "2018-05-10",
         "id": "真6"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 6,
+        "name": "アラストール",
+        "style": "バースト",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2021-01-31",
+        "id": "真6R"
     },
     {
         "clock_type": "真",

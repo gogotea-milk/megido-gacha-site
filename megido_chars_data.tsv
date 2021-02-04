@@ -78,6 +78,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 祖	49	クロケル	ラッシュ	スナイパー	TRUE				2019-04-15
 祖	49	クロケル	バースト	スナイパー					
 祖	50	フルカス	バースト	ファイター					
+祖	50	フルカス	カウンター	ファイター	TRUE				2021-01-31
 祖	51	バラム	カウンター	ファイター		TRUE			2018-06-29
 祖	52	アロケル	カウンター	ファイター					
 祖	53	カイム	カウンター	スナイパー					
@@ -120,6 +121,7 @@ clock_type	clock_id	name	style	class	regenerated	main	event	terminus	implemented
 真	4	ユフィール	カウンター	スナイパー	TRUE			TRUE	2020-04-30
 真	5	フリアエ	カウンター	スナイパー					2018-04-27
 真	6	アラストール	カウンター	トルーパー					2018-05-10
+真	6	アラストール	バースト	トルーパー	TRUE		TRUE		2021-01-31
 真	7	ヒュトギン	バースト	スナイパー			TRUE		2019-05-03
 真	9	インキュバス	ラッシュ	ファイター					2018-03-30
 真	9	インキュバス	カウンター	ファイター	TRUE				2019-03-15

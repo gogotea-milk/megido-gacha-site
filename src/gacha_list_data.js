@@ -1085,7 +1085,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "悲劇を乗り越えし策王",
     rate_settings: {
@@ -1099,4 +1098,49 @@ export default [
       }
     }
   }
+  */
+  {
+    name: "フルカスCサバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2021-01-31",
+      pickup: {
+        祖50R: 0.012,
+        真47: 0.0035,
+        真58: 0.0035,
+        真64: 0.0035
+      }
+    }
+  },
+  {
+    name: "コレチケ5枚",
+    rate_settings: {
+      base_rate: 1.0,
+      megido_back_of: "2021-01-30"
+    }
+  },
+  {
+    name: "コレチケ10枚",
+    rate_settings: {
+      base_rate: 1.0,
+      megido_back_of: "2021-01-30",
+      exclude: megido => {
+        return !(
+          megido.clock_type === "真" ||
+          megido.regenerated ||
+          megido.terminus
+        );
+      }
+    }
+  },
+  {
+    name: "コレチケ15枚",
+    rate_settings: {
+      base_rate: 1.0,
+      megido_back_of: "2021-01-30",
+      exclude: megido => {
+        return !(megido.regenerated || megido.terminus);
+      }
+    }
+  },
 ];
