@@ -6,6 +6,7 @@
     {
         "clock_type": "祖",
         "clock_id": 1,
+        "gender": "m",
         "name": "バエル",
         "style": "バースト",
         "class": "スナイパー",
@@ -19,6 +20,7 @@
     {
         "clock_type": "祖",
         "clock_id": 2,
+        "gender": "m",
         "name": "アガレス",
         "style": "バースト",
         "class": "スナイパー",
@@ -32,6 +34,7 @@
     {
         "clock_type": "祖",
         "clock_id": 2,
+        "gender": "m",
         "name": "アガレス",
         "style": "カウンター",
         "class": "スナイパー",
@@ -45,6 +48,7 @@
     {
         "clock_type": "祖",
         "clock_id": 3,
+        "gender": "f",
         "name": "ウァサゴ",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -58,6 +62,7 @@
     {
         "clock_type": "祖",
         "clock_id": 4,
+        "gender": "m",
         "name": "ガミジン",
         "style": "カウンター",
         "class": "ファイター",
@@ -71,6 +76,7 @@
     {
         "clock_type": "祖",
         "clock_id": 5,
+        "gender": "f",
         "name": "マルバス",
         "style": "カウンター",
         "class": "スナイパー",
@@ -84,6 +90,7 @@
     {
         "clock_type": "祖",
         "clock_id": 5,
+        "gender": "f",
         "name": "マルバス",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -97,6 +104,7 @@
     {
         "clock_type": "祖",
         "clock_id": 6,
+        "gender": "f",
         "name": "ウァレフォル",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -110,6 +118,7 @@
     {
         "clock_type": "祖",
         "clock_id": 7,
+        "gender": "m",
         "name": "アモン",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -123,6 +132,7 @@
     {
         "clock_type": "祖",
         "clock_id": 7,
+        "gender": "m",
         "name": "アモン",
         "style": "バースト",
         "class": "ファイター",
@@ -136,6 +146,7 @@
     {
         "clock_type": "祖",
         "clock_id": 8,
+        "gender": "m",
         "name": "バルバトス",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -149,6 +160,7 @@
     {
         "clock_type": "祖",
         "clock_id": 8,
+        "gender": "m",
         "name": "バルバトス",
         "style": "カウンター",
         "class": "スナイパー",
@@ -162,6 +174,7 @@
     {
         "clock_type": "祖",
         "clock_id": 9,
+        "gender": "m",
         "name": "パイモン",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -175,6 +188,7 @@
     {
         "clock_type": "祖",
         "clock_id": 10,
+        "gender": "f",
         "name": "ブエル",
         "style": "バースト",
         "class": "スナイパー",
@@ -188,6 +202,7 @@
     {
         "clock_type": "祖",
         "clock_id": 11,
+        "gender": "f",
         "name": "グシオン",
         "style": "カウンター",
         "class": "スナイパー",
@@ -201,6 +216,7 @@
     {
         "clock_type": "祖",
         "clock_id": 11,
+        "gender": "f",
         "name": "グシオン",
         "style": "バースト",
         "class": "スナイパー",
@@ -214,6 +230,7 @@
     {
         "clock_type": "祖",
         "clock_id": 12,
+        "gender": "f",
         "name": "シトリー",
         "style": "カウンター",
         "class": "トルーパー",
@@ -227,6 +244,7 @@
     {
         "clock_type": "祖",
         "clock_id": 12,
+        "gender": "f",
         "name": "シトリー",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -240,6 +258,7 @@
     {
         "clock_type": "祖",
         "clock_id": 13,
+        "gender": "f",
         "name": "ベレト",
         "style": "カウンター",
         "class": "トルーパー",
@@ -253,6 +272,7 @@
     {
         "clock_type": "祖",
         "clock_id": 14,
+        "gender": "f",
         "name": "レラジェ",
         "style": "カウンター",
         "class": "スナイパー",
@@ -266,6 +286,7 @@
     {
         "clock_type": "祖",
         "clock_id": 14,
+        "gender": "f",
         "name": "レラジェ",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -279,6 +300,7 @@
     {
         "clock_type": "祖",
         "clock_id": 15,
+        "gender": "f",
         "name": "エリゴス",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -292,6 +314,7 @@
     {
         "clock_type": "祖",
         "clock_id": 15,
+        "gender": "f",
         "name": "エリゴス",
         "style": "バースト",
         "class": "ファイター",
@@ -305,6 +328,7 @@
     {
         "clock_type": "祖",
         "clock_id": 16,
+        "gender": "f",
         "name": "ゼパル",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -318,6 +342,7 @@
     {
         "clock_type": "祖",
         "clock_id": 16,
+        "gender": "f",
         "name": "ゼパル",
         "style": "カウンター",
         "class": "ファイター",
@@ -331,6 +356,7 @@
     {
         "clock_type": "祖",
         "clock_id": 17,
+        "gender": "f",
         "name": "ボティス",
         "style": "カウンター",
         "class": "トルーパー",
@@ -344,6 +370,7 @@
     {
         "clock_type": "祖",
         "clock_id": 18,
+        "gender": "f",
         "name": "バティン",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -357,6 +384,7 @@
     {
         "clock_type": "祖",
         "clock_id": 18,
+        "gender": "f",
         "name": "バティン",
         "style": "バースト",
         "class": "トルーパー",
@@ -370,6 +398,7 @@
     {
         "clock_type": "祖",
         "clock_id": 19,
+        "gender": "m",
         "name": "サレオス",
         "style": "バースト",
         "class": "ファイター",
@@ -383,6 +412,7 @@
     {
         "clock_type": "祖",
         "clock_id": 19,
+        "gender": "m",
         "name": "サレオス",
         "style": "カウンター",
         "class": "ファイター",
@@ -396,6 +426,7 @@
     {
         "clock_type": "祖",
         "clock_id": 20,
+        "gender": "m",
         "name": "プルソン",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -409,6 +440,7 @@
     {
         "clock_type": "祖",
         "clock_id": 21,
+        "gender": "m",
         "name": "モラクス",
         "style": "バースト",
         "class": "ファイター",
@@ -422,6 +454,7 @@
     {
         "clock_type": "祖",
         "clock_id": 22,
+        "gender": "m",
         "name": "イポス",
         "style": "カウンター",
         "class": "ファイター",
@@ -435,6 +468,7 @@
     {
         "clock_type": "祖",
         "clock_id": 22,
+        "gender": "m",
         "name": "イポス",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -448,6 +482,7 @@
     {
         "clock_type": "祖",
         "clock_id": 23,
+        "gender": "f",
         "name": "アイム",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -461,6 +496,7 @@
     {
         "clock_type": "祖",
         "clock_id": 23,
+        "gender": "f",
         "name": "アイム",
         "style": "バースト",
         "class": "スナイパー",
@@ -474,6 +510,7 @@
     {
         "clock_type": "祖",
         "clock_id": 24,
+        "gender": "f",
         "name": "ナベリウス",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -487,6 +524,7 @@
     {
         "clock_type": "祖",
         "clock_id": 25,
+        "gender": "m",
         "name": "グラシャラボラス",
         "style": "バースト",
         "class": "トルーパー",
@@ -500,6 +538,7 @@
     {
         "clock_type": "祖",
         "clock_id": 25,
+        "gender": "m",
         "name": "グラシャラボラス",
         "style": "カウンター",
         "class": "トルーパー",
@@ -513,6 +552,7 @@
     {
         "clock_type": "祖",
         "clock_id": 26,
+        "gender": "m",
         "name": "ブネ",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -526,6 +566,7 @@
     {
         "clock_type": "祖",
         "clock_id": 26,
+        "gender": "m",
         "name": "ブネ",
         "style": "バースト",
         "class": "ファイター",
@@ -539,6 +580,7 @@
     {
         "clock_type": "祖",
         "clock_id": 27,
+        "gender": "m",
         "name": "ロノウェ",
         "style": "カウンター",
         "class": "ファイター",
@@ -552,6 +594,7 @@
     {
         "clock_type": "祖",
         "clock_id": 28,
+        "gender": "m",
         "name": "ベリト",
         "style": "カウンター",
         "class": "ファイター",
@@ -565,6 +608,7 @@
     {
         "clock_type": "祖",
         "clock_id": 28,
+        "gender": "m",
         "name": "ベリト",
         "style": "バースト",
         "class": "ファイター",
@@ -578,6 +622,7 @@
     {
         "clock_type": "祖",
         "clock_id": 29,
+        "gender": "f",
         "name": "アスタロト",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -591,6 +636,7 @@
     {
         "clock_type": "祖",
         "clock_id": 29,
+        "gender": "f",
         "name": "アスタロト",
         "style": "バースト",
         "class": "ファイター",
@@ -604,6 +650,7 @@
     {
         "clock_type": "祖",
         "clock_id": 30,
+        "gender": "m",
         "name": "フォルネウス",
         "style": "カウンター",
         "class": "トルーパー",
@@ -617,6 +664,7 @@
     {
         "clock_type": "祖",
         "clock_id": 31,
+        "gender": "m",
         "name": "フォラス",
         "style": "バースト",
         "class": "スナイパー",
@@ -630,6 +678,7 @@
     {
         "clock_type": "祖",
         "clock_id": 32,
+        "gender": "f",
         "name": "アスモデウス",
         "style": "バースト",
         "class": "ファイター",
@@ -643,6 +692,7 @@
     {
         "clock_type": "祖",
         "clock_id": 33,
+        "gender": "m",
         "name": "ガープ",
         "style": "カウンター",
         "class": "ファイター",
@@ -656,6 +706,7 @@
     {
         "clock_type": "祖",
         "clock_id": 34,
+        "gender": "f",
         "name": "フルフル",
         "style": "バースト",
         "class": "スナイパー",
@@ -669,6 +720,7 @@
     {
         "clock_type": "祖",
         "clock_id": 34,
+        "gender": "f",
         "name": "フルフル",
         "style": "カウンター",
         "class": "スナイパー",
@@ -682,6 +734,7 @@
     {
         "clock_type": "祖",
         "clock_id": 35,
+        "gender": "f",
         "name": "マルコシアス",
         "style": "バースト",
         "class": "スナイパー",
@@ -695,6 +748,7 @@
     {
         "clock_type": "祖",
         "clock_id": 35,
+        "gender": "f",
         "name": "マルコシアス",
         "style": "カウンター",
         "class": "スナイパー",
@@ -708,6 +762,7 @@
     {
         "clock_type": "祖",
         "clock_id": 36,
+        "gender": "f",
         "name": "ストラス",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -721,6 +776,7 @@
     {
         "clock_type": "祖",
         "clock_id": 36,
+        "gender": "f",
         "name": "ストラス",
         "style": "バースト",
         "class": "トルーパー",
@@ -734,6 +790,7 @@
     {
         "clock_type": "祖",
         "clock_id": 37,
+        "gender": "m",
         "name": "フェニックス",
         "style": "カウンター",
         "class": "ファイター",
@@ -747,6 +804,7 @@
     {
         "clock_type": "祖",
         "clock_id": 37,
+        "gender": "m",
         "name": "フェニックス",
         "style": "バースト",
         "class": "ファイター",
@@ -760,6 +818,7 @@
     {
         "clock_type": "祖",
         "clock_id": 38,
+        "gender": "f",
         "name": "ハルファス",
         "style": "バースト",
         "class": "ファイター",
@@ -773,6 +832,7 @@
     {
         "clock_type": "祖",
         "clock_id": 39,
+        "gender": "m",
         "name": "マルファス",
         "style": "カウンター",
         "class": "トルーパー",
@@ -786,6 +846,7 @@
     {
         "clock_type": "祖",
         "clock_id": 40,
+        "gender": "m",
         "name": "ラウム",
         "style": "カウンター",
         "class": "トルーパー",
@@ -799,6 +860,7 @@
     {
         "clock_type": "祖",
         "clock_id": 40,
+        "gender": "m",
         "name": "ラウム",
         "style": "バースト",
         "class": "トルーパー",
@@ -812,6 +874,7 @@
     {
         "clock_type": "祖",
         "clock_id": 41,
+        "gender": "m",
         "name": "フォカロル",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -825,6 +888,7 @@
     {
         "clock_type": "祖",
         "clock_id": 41,
+        "gender": "m",
         "name": "フォカロル",
         "style": "バースト",
         "class": "トルーパー",
@@ -838,6 +902,7 @@
     {
         "clock_type": "祖",
         "clock_id": 42,
+        "gender": "f",
         "name": "ウェパル",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -851,6 +916,7 @@
     {
         "clock_type": "祖",
         "clock_id": 42,
+        "gender": "f",
         "name": "ウェパル",
         "style": "バースト",
         "class": "トルーパー",
@@ -864,6 +930,7 @@
     {
         "clock_type": "祖",
         "clock_id": 43,
+        "gender": "m",
         "name": "サブナック",
         "style": "カウンター",
         "class": "ファイター",
@@ -877,6 +944,7 @@
     {
         "clock_type": "祖",
         "clock_id": 44,
+        "gender": "f",
         "name": "シャックス",
         "style": "カウンター",
         "class": "ファイター",
@@ -890,6 +958,7 @@
     {
         "clock_type": "祖",
         "clock_id": 44,
+        "gender": "f",
         "name": "シャックス",
         "style": "バースト",
         "class": "ファイター",
@@ -903,6 +972,7 @@
     {
         "clock_type": "祖",
         "clock_id": 45,
+        "gender": "f",
         "name": "ヴィネ",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -916,6 +986,7 @@
     {
         "clock_type": "祖",
         "clock_id": 45,
+        "gender": "f",
         "name": "ヴィネ",
         "style": "バースト",
         "class": "スナイパー",
@@ -929,6 +1000,7 @@
     {
         "clock_type": "祖",
         "clock_id": 46,
+        "gender": "f",
         "name": "ビフロンス",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -942,6 +1014,7 @@
     {
         "clock_type": "祖",
         "clock_id": 46,
+        "gender": "f",
         "name": "ビフロンス",
         "style": "カウンター",
         "class": "トルーパー",
@@ -955,6 +1028,7 @@
     {
         "clock_type": "祖",
         "clock_id": 47,
+        "gender": "f",
         "name": "ウヴァル",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -968,6 +1042,7 @@
     {
         "clock_type": "祖",
         "clock_id": 48,
+        "gender": "f",
         "name": "ハーゲンティ",
         "style": "カウンター",
         "class": "トルーパー",
@@ -981,6 +1056,7 @@
     {
         "clock_type": "祖",
         "clock_id": 48,
+        "gender": "f",
         "name": "ハーゲンティ",
         "style": "バースト",
         "class": "トルーパー",
@@ -994,6 +1070,7 @@
     {
         "clock_type": "祖",
         "clock_id": 49,
+        "gender": "f",
         "name": "クロケル",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1007,6 +1084,7 @@
     {
         "clock_type": "祖",
         "clock_id": 49,
+        "gender": "f",
         "name": "クロケル",
         "style": "バースト",
         "class": "スナイパー",
@@ -1020,6 +1098,7 @@
     {
         "clock_type": "祖",
         "clock_id": 50,
+        "gender": "f",
         "name": "フルカス",
         "style": "バースト",
         "class": "ファイター",
@@ -1033,6 +1112,7 @@
     {
         "clock_type": "祖",
         "clock_id": 50,
+        "gender": "f",
         "name": "フルカス",
         "style": "カウンター",
         "class": "ファイター",
@@ -1046,6 +1126,7 @@
     {
         "clock_type": "祖",
         "clock_id": 51,
+        "gender": "m",
         "name": "バラム",
         "style": "カウンター",
         "class": "ファイター",
@@ -1059,6 +1140,7 @@
     {
         "clock_type": "祖",
         "clock_id": 52,
+        "gender": "m",
         "name": "アロケル",
         "style": "カウンター",
         "class": "ファイター",
@@ -1072,6 +1154,7 @@
     {
         "clock_type": "祖",
         "clock_id": 53,
+        "gender": "m",
         "name": "カイム",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1085,6 +1168,7 @@
     {
         "clock_type": "祖",
         "clock_id": 54,
+        "gender": "f",
         "name": "ムルムル",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1098,6 +1182,7 @@
     {
         "clock_type": "祖",
         "clock_id": 55,
+        "gender": "m",
         "name": "オロバス",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1111,6 +1196,7 @@
     {
         "clock_type": "祖",
         "clock_id": 55,
+        "gender": "m",
         "name": "オロバス",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1124,6 +1210,7 @@
     {
         "clock_type": "祖",
         "clock_id": 56,
+        "gender": "f",
         "name": "グレモリー",
         "style": "カウンター",
         "class": "ファイター",
@@ -1137,6 +1224,7 @@
     {
         "clock_type": "祖",
         "clock_id": 57,
+        "gender": "f",
         "name": "オセ",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -1150,6 +1238,7 @@
     {
         "clock_type": "祖",
         "clock_id": 58,
+        "gender": "f",
         "name": "アミー",
         "style": "バースト",
         "class": "トルーパー",
@@ -1163,6 +1252,7 @@
     {
         "clock_type": "祖",
         "clock_id": 59,
+        "gender": "f",
         "name": "オリアス",
         "style": "バースト",
         "class": "スナイパー",
@@ -1176,6 +1266,7 @@
     {
         "clock_type": "祖",
         "clock_id": 59,
+        "gender": "f",
         "name": "オリアス",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1189,6 +1280,7 @@
     {
         "clock_type": "祖",
         "clock_id": 60,
+        "gender": "m",
         "name": "ウァプラ",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -1202,6 +1294,7 @@
     {
         "clock_type": "祖",
         "clock_id": 60,
+        "gender": "m",
         "name": "ウァプラ",
         "style": "バースト",
         "class": "トルーパー",
@@ -1215,6 +1308,7 @@
     {
         "clock_type": "祖",
         "clock_id": 61,
+        "gender": "f",
         "name": "ザガン",
         "style": "カウンター",
         "class": "ファイター",
@@ -1228,6 +1322,7 @@
     {
         "clock_type": "祖",
         "clock_id": 62,
+        "gender": "f",
         "name": "ウァラク",
         "style": "バースト",
         "class": "トルーパー",
@@ -1241,6 +1336,7 @@
     {
         "clock_type": "祖",
         "clock_id": 63,
+        "gender": "m",
         "name": "アンドラス",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -1254,6 +1350,7 @@
     {
         "clock_type": "祖",
         "clock_id": 63,
+        "gender": "m",
         "name": "アンドラス",
         "style": "カウンター",
         "class": "トルーパー",
@@ -1267,6 +1364,7 @@
     {
         "clock_type": "祖",
         "clock_id": 64,
+        "gender": "m",
         "name": "フラウロス",
         "style": "バースト",
         "class": "トルーパー",
@@ -1280,6 +1378,7 @@
     {
         "clock_type": "祖",
         "clock_id": 64,
+        "gender": "m",
         "name": "フラウロス",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -1293,6 +1392,7 @@
     {
         "clock_type": "祖",
         "clock_id": 65,
+        "gender": "m",
         "name": "アンドレアルフス",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -1306,6 +1406,7 @@
     {
         "clock_type": "祖",
         "clock_id": 66,
+        "gender": "f",
         "name": "キマリス",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -1319,6 +1420,7 @@
     {
         "clock_type": "祖",
         "clock_id": 66,
+        "gender": "f",
         "name": "キマリス",
         "style": "カウンター",
         "class": "トルーパー",
@@ -1332,6 +1434,7 @@
     {
         "clock_type": "祖",
         "clock_id": 67,
+        "gender": "f",
         "name": "アムドゥスキアス",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1345,6 +1448,7 @@
     {
         "clock_type": "祖",
         "clock_id": 68,
+        "gender": "f",
         "name": "ベリアル",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1358,6 +1462,7 @@
     {
         "clock_type": "祖",
         "clock_id": 68,
+        "gender": "f",
         "name": "ベリアル",
         "style": "バースト",
         "class": "スナイパー",
@@ -1371,6 +1476,7 @@
     {
         "clock_type": "祖",
         "clock_id": 69,
+        "gender": "m",
         "name": "デカラビア",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1384,6 +1490,7 @@
     {
         "clock_type": "祖",
         "clock_id": 69,
+        "gender": "m",
         "name": "デカラビア",
         "style": "バースト",
         "class": "スナイパー",
@@ -1397,6 +1504,7 @@
     {
         "clock_type": "祖",
         "clock_id": 70,
+        "gender": "m",
         "name": "セーレ",
         "style": "カウンター",
         "class": "ファイター",
@@ -1410,6 +1518,7 @@
     {
         "clock_type": "祖",
         "clock_id": 70,
+        "gender": "m",
         "name": "セーレ",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -1423,6 +1532,7 @@
     {
         "clock_type": "祖",
         "clock_id": 71,
+        "gender": "f",
         "name": "ダンタリオン",
         "style": "バースト",
         "class": "スナイパー",
@@ -1436,6 +1546,7 @@
     {
         "clock_type": "祖",
         "clock_id": 71,
+        "gender": "f",
         "name": "ダンタリオン",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1449,6 +1560,7 @@
     {
         "clock_type": "祖",
         "clock_id": 72,
+        "gender": "f",
         "name": "アンドロマリウス",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1462,6 +1574,7 @@
     {
         "clock_type": "真",
         "clock_id": 1,
+        "gender": "f",
         "name": "リリム",
         "style": "バースト",
         "class": "スナイパー",
@@ -1475,6 +1588,7 @@
     {
         "clock_type": "真",
         "clock_id": 1,
+        "gender": "f",
         "name": "リリム",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1488,6 +1602,7 @@
     {
         "clock_type": "真",
         "clock_id": 2,
+        "gender": "f",
         "name": "ニバス",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1501,6 +1616,7 @@
     {
         "clock_type": "真",
         "clock_id": 2,
+        "gender": "f",
         "name": "ニバス",
         "style": "バースト",
         "class": "スナイパー",
@@ -1514,6 +1630,7 @@
     {
         "clock_type": "真",
         "clock_id": 3,
+        "gender": "f",
         "name": "サキュバス",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -1527,6 +1644,7 @@
     {
         "clock_type": "真",
         "clock_id": 3,
+        "gender": "f",
         "name": "サキュバス",
         "style": "バースト",
         "class": "トルーパー",
@@ -1540,6 +1658,7 @@
     {
         "clock_type": "真",
         "clock_id": 4,
+        "gender": "f",
         "name": "ユフィール",
         "style": "バースト",
         "class": "スナイパー",
@@ -1553,6 +1672,7 @@
     {
         "clock_type": "真",
         "clock_id": 4,
+        "gender": "f",
         "name": "ユフィール",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1566,6 +1686,7 @@
     {
         "clock_type": "真",
         "clock_id": 5,
+        "gender": "f",
         "name": "フリアエ",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1579,6 +1700,7 @@
     {
         "clock_type": "真",
         "clock_id": 6,
+        "gender": "f",
         "name": "アラストール",
         "style": "カウンター",
         "class": "トルーパー",
@@ -1592,6 +1714,7 @@
     {
         "clock_type": "真",
         "clock_id": 6,
+        "gender": "f",
         "name": "アラストール",
         "style": "バースト",
         "class": "トルーパー",
@@ -1605,6 +1728,7 @@
     {
         "clock_type": "真",
         "clock_id": 7,
+        "gender": "m",
         "name": "ヒュトギン",
         "style": "バースト",
         "class": "スナイパー",
@@ -1618,6 +1742,7 @@
     {
         "clock_type": "真",
         "clock_id": 9,
+        "gender": "m",
         "name": "インキュバス",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -1631,6 +1756,7 @@
     {
         "clock_type": "真",
         "clock_id": 9,
+        "gender": "m",
         "name": "インキュバス",
         "style": "カウンター",
         "class": "ファイター",
@@ -1644,6 +1770,7 @@
     {
         "clock_type": "真",
         "clock_id": 10,
+        "gender": "f",
         "name": "グリマルキン",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1657,6 +1784,7 @@
     {
         "clock_type": "真",
         "clock_id": 11,
+        "gender": "f",
         "name": "コルソン",
         "style": "カウンター",
         "class": "ファイター",
@@ -1670,6 +1798,7 @@
     {
         "clock_type": "真",
         "clock_id": 12,
+        "gender": "f",
         "name": "ジニマル",
         "style": "カウンター",
         "class": "トルーパー",
@@ -1683,6 +1812,7 @@
     {
         "clock_type": "真",
         "clock_id": 13,
+        "gender": "f",
         "name": "バフォメット",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1696,6 +1826,7 @@
     {
         "clock_type": "真",
         "clock_id": 14,
+        "gender": "f",
         "name": "サラ",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -1709,6 +1840,7 @@
     {
         "clock_type": "真",
         "clock_id": 15,
+        "gender": "m",
         "name": "サタナキア",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1722,6 +1854,7 @@
     {
         "clock_type": "真",
         "clock_id": 15,
+        "gender": "m",
         "name": "サタナキア",
         "style": "バースト",
         "class": "スナイパー",
@@ -1735,6 +1868,7 @@
     {
         "clock_type": "真",
         "clock_id": 16,
+        "gender": "m",
         "name": "タナトス",
         "style": "カウンター",
         "class": "トルーパー",
@@ -1748,6 +1882,7 @@
     {
         "clock_type": "真",
         "clock_id": 17,
+        "gender": "f",
         "name": "ティアマト",
         "style": "カウンター",
         "class": "ファイター",
@@ -1761,6 +1896,7 @@
     {
         "clock_type": "真",
         "clock_id": 18,
+        "gender": "f",
         "name": "ブニ",
         "style": "カウンター",
         "class": "ファイター",
@@ -1774,6 +1910,7 @@
     {
         "clock_type": "真",
         "clock_id": 18,
+        "gender": "f",
         "name": "ブニ",
         "style": "バースト",
         "class": "ファイター",
@@ -1787,6 +1924,7 @@
     {
         "clock_type": "真",
         "clock_id": 19,
+        "gender": "f",
         "name": "オリエンス",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -1800,6 +1938,7 @@
     {
         "clock_type": "真",
         "clock_id": 21,
+        "gender": "f",
         "name": "リヴァイアサン",
         "style": "バースト",
         "class": "スナイパー",
@@ -1813,6 +1952,7 @@
     {
         "clock_type": "真",
         "clock_id": 22,
+        "gender": "m",
         "name": "カスピエル",
         "style": "バースト",
         "class": "トルーパー",
@@ -1826,6 +1966,7 @@
     {
         "clock_type": "真",
         "clock_id": 22,
+        "gender": "m",
         "name": "カスピエル",
         "style": "カウンター",
         "class": "トルーパー",
@@ -1839,6 +1980,7 @@
     {
         "clock_type": "真",
         "clock_id": 23,
+        "gender": "f",
         "name": "ネフィリム",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1852,6 +1994,7 @@
     {
         "clock_type": "真",
         "clock_id": 24,
+        "gender": "f",
         "name": "ミノソン",
         "style": "バースト",
         "class": "スナイパー",
@@ -1865,6 +2008,7 @@
     {
         "clock_type": "真",
         "clock_id": 25,
+        "gender": "m",
         "name": "ニスロク",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -1878,6 +2022,7 @@
     {
         "clock_type": "真",
         "clock_id": 26,
+        "gender": "m",
         "name": "オレイ",
         "style": "カウンター",
         "class": "ファイター",
@@ -1891,6 +2036,7 @@
     {
         "clock_type": "真",
         "clock_id": 27,
+        "gender": "f",
         "name": "マルチネ",
         "style": "バースト",
         "class": "ファイター",
@@ -1904,6 +2050,7 @@
     {
         "clock_type": "真",
         "clock_id": 28,
+        "gender": "m",
         "name": "アザゼル",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -1917,6 +2064,7 @@
     {
         "clock_type": "真",
         "clock_id": 30,
+        "gender": "f",
         "name": "バラキエル",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1930,6 +2078,7 @@
     {
         "clock_type": "真",
         "clock_id": 31,
+        "gender": "f",
         "name": "フルーレティ",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1943,6 +2092,7 @@
     {
         "clock_type": "真",
         "clock_id": 33,
+        "gender": "m",
         "name": "ハック",
         "style": "カウンター",
         "class": "ファイター",
@@ -1956,6 +2106,7 @@
     {
         "clock_type": "真",
         "clock_id": 34,
+        "gender": "f",
         "name": "マスティマ",
         "style": "カウンター",
         "class": "トルーパー",
@@ -1969,6 +2120,7 @@
     {
         "clock_type": "真",
         "clock_id": 36,
+        "gender": "m",
         "name": "メフィスト",
         "style": "カウンター",
         "class": "スナイパー",
@@ -1982,6 +2134,7 @@
     {
         "clock_type": "真",
         "clock_id": 36,
+        "gender": "m",
         "name": "メフィスト",
         "style": "バースト",
         "class": "スナイパー",
@@ -1995,6 +2148,7 @@
     {
         "clock_type": "真",
         "clock_id": 38,
+        "gender": "f",
         "name": "アガリアレプト",
         "style": "バースト",
         "class": "ファイター",
@@ -2008,6 +2162,7 @@
     {
         "clock_type": "真",
         "clock_id": 38,
+        "gender": "f",
         "name": "アガリアレプト",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -2021,6 +2176,7 @@
     {
         "clock_type": "真",
         "clock_id": 40,
+        "gender": "f",
         "name": "グザファン",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -2034,6 +2190,7 @@
     {
         "clock_type": "真",
         "clock_id": 41,
+        "gender": "m",
         "name": "アマイモン",
         "style": "カウンター",
         "class": "ファイター",
@@ -2047,6 +2204,7 @@
     {
         "clock_type": "真",
         "clock_id": 41,
+        "gender": "m",
         "name": "アマイモン",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -2060,6 +2218,7 @@
     {
         "clock_type": "真",
         "clock_id": 43,
+        "gender": "f",
         "name": "サルガタナス",
         "style": "バースト",
         "class": "スナイパー",
@@ -2073,6 +2232,7 @@
     {
         "clock_type": "真",
         "clock_id": 44,
+        "gender": "m",
         "name": "タムス",
         "style": "バースト",
         "class": "ファイター",
@@ -2086,6 +2246,7 @@
     {
         "clock_type": "真",
         "clock_id": 47,
+        "gender": "f",
         "name": "ヴェルドレ",
         "style": "バースト",
         "class": "スナイパー",
@@ -2099,6 +2260,7 @@
     {
         "clock_type": "真",
         "clock_id": 48,
+        "gender": "m",
         "name": "ウトゥック",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -2112,6 +2274,7 @@
     {
         "clock_type": "真",
         "clock_id": 49,
+        "gender": "f",
         "name": "サタナイル",
         "style": "バースト",
         "class": "トルーパー",
@@ -2125,6 +2288,7 @@
     {
         "clock_type": "真",
         "clock_id": 50,
+        "gender": "m",
         "name": "シャミハザ",
         "style": "カウンター",
         "class": "ファイター",
@@ -2138,6 +2302,7 @@
     {
         "clock_type": "真",
         "clock_id": 51,
+        "gender": "f",
         "name": "プルフラス",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -2151,6 +2316,7 @@
     {
         "clock_type": "真",
         "clock_id": 51,
+        "gender": "f",
         "name": "プルフラス",
         "style": "バースト",
         "class": "ファイター",
@@ -2164,6 +2330,7 @@
     {
         "clock_type": "真",
         "clock_id": 52,
+        "gender": "f",
         "name": "ジズ",
         "style": "バースト",
         "class": "スナイパー",
@@ -2177,6 +2344,7 @@
     {
         "clock_type": "真",
         "clock_id": 52,
+        "gender": "f",
         "name": "ジズ",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -2190,6 +2358,7 @@
     {
         "clock_type": "真",
         "clock_id": 53,
+        "gender": "f",
         "name": "ベバル",
         "style": "バースト",
         "class": "トルーパー",
@@ -2203,6 +2372,7 @@
     {
         "clock_type": "真",
         "clock_id": 54,
+        "gender": "m",
         "name": "アバラム",
         "style": "バースト",
         "class": "スナイパー",
@@ -2216,6 +2386,7 @@
     {
         "clock_type": "真",
         "clock_id": 55,
+        "gender": "m",
         "name": "アリトン",
         "style": "カウンター",
         "class": "スナイパー",
@@ -2229,6 +2400,7 @@
     {
         "clock_type": "真",
         "clock_id": 57,
+        "gender": "m",
         "name": "ベヒモス",
         "style": "ラッシュ",
         "class": "ファイター",
@@ -2242,6 +2414,7 @@
     {
         "clock_type": "真",
         "clock_id": 57,
+        "gender": "m",
         "name": "ベヒモス",
         "style": "バースト",
         "class": "ファイター",
@@ -2255,6 +2428,7 @@
     {
         "clock_type": "真",
         "clock_id": 58,
+        "gender": "f",
         "name": "ダゴン",
         "style": "カウンター",
         "class": "トルーパー",
@@ -2268,6 +2442,7 @@
     {
         "clock_type": "真",
         "clock_id": 59,
+        "gender": "m",
         "name": "スコルベノト",
         "style": "カウンター",
         "class": "トルーパー",
@@ -2281,6 +2456,7 @@
     {
         "clock_type": "真",
         "clock_id": 61,
+        "gender": "f",
         "name": "フィロタヌス",
         "style": "バースト",
         "class": "スナイパー",
@@ -2294,6 +2470,7 @@
     {
         "clock_type": "真",
         "clock_id": 62,
+        "gender": "f",
         "name": "インプ",
         "style": "バースト",
         "class": "トルーパー",
@@ -2307,6 +2484,7 @@
     {
         "clock_type": "真",
         "clock_id": 63,
+        "gender": "m",
         "name": "アマゼロト",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -2320,6 +2498,7 @@
     {
         "clock_type": "真",
         "clock_id": 64,
+        "gender": "f",
         "name": "プロメテウス",
         "style": "バースト",
         "class": "スナイパー",
@@ -2333,6 +2512,7 @@
     {
         "clock_type": "真",
         "clock_id": 65,
+        "gender": "m",
         "name": "ベルフェゴール",
         "style": "カウンター",
         "class": "ファイター",
@@ -2346,6 +2526,7 @@
     {
         "clock_type": "真",
         "clock_id": 66,
+        "gender": "f",
         "name": "マモン",
         "style": "ラッシュ",
         "class": "スナイパー",
@@ -2359,6 +2540,7 @@
     {
         "clock_type": "真",
         "clock_id": 68,
+        "gender": "f",
         "name": "ネルガル",
         "style": "カウンター",
         "class": "スナイパー",
@@ -2372,6 +2554,7 @@
     {
         "clock_type": "真",
         "clock_id": 69,
+        "gender": "m",
         "name": "バールゼフォン",
         "style": "バースト",
         "class": "スナイパー",
@@ -2385,6 +2568,7 @@
     {
         "clock_type": "真",
         "clock_id": 70,
+        "gender": "f",
         "name": "アスラフィル",
         "style": "ラッシュ",
         "class": "トルーパー",
@@ -2398,6 +2582,7 @@
     {
         "clock_type": "真",
         "clock_id": 71,
+        "gender": "m",
         "name": "アクィエル",
         "style": "カウンター",
         "class": "スナイパー",

@@ -22,6 +22,9 @@ const parser = parse({
         return null;
       }
     }
+    if(context.column === "gender") {
+      return value;
+    }
 
     if (!value) {
       return false;

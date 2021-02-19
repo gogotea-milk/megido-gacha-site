@@ -1097,8 +1097,7 @@ export default [
         祖41R: 0.006
       }
     }
-  }
-  */
+  },
   {
     name: "フルカスCサバト",
     rate_settings: {
@@ -1112,11 +1111,15 @@ export default [
       }
     }
   },
+  */
   {
     name: "コレチケ5枚",
     rate_settings: {
       base_rate: 1.0,
-      megido_back_of: "2020-10-31"
+      megido_back_of: "2020-10-31",
+      exclude: megido =>{
+        return !(megido.gender === "f");
+      }
     }
   },
   {
@@ -1126,9 +1129,12 @@ export default [
       megido_back_of: "2020-10-31",
       exclude: megido => {
         return !(
+          megido.gender === "f" && 
+          ( 
           megido.clock_type === "真" ||
           megido.regenerated ||
           megido.terminus
+          )
         );
       }
     }
@@ -1139,7 +1145,9 @@ export default [
       base_rate: 1.0,
       megido_back_of: "2020-10-31",
       exclude: megido => {
-        return !(megido.regenerated || megido.terminus);
+        return !(
+          megido.gender === "f" &&
+          (megido.regenerated || megido.terminus));
       }
     }
   },
