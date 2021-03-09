@@ -127,6 +127,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	9	m	インキュバス	カウンター	ファイター	TRUE				2019-03-15
 真	10	f	グリマルキン	カウンター	スナイパー					2019-01-01
 真	11	f	コルソン	カウンター	ファイター					2018-06-30
+真	11	f	コルソン	ラッシュ	ファイター	TRUE				2021-02-11
 真	12	f	ジニマル	カウンター	トルーパー			TRUE		2018-07-05
 真	13	f	バフォメット	ラッシュ	スナイパー					2018-08-13
 真	14	f	サラ	ラッシュ	ファイター					2018-05-31
@@ -157,6 +158,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	40	f	グザファン	ラッシュ	スナイパー			TRUE		2020-09-29
 真	41	m	アマイモン	カウンター	ファイター					2018-07-13
 真	41	m	アマイモン	ラッシュ	ファイター	TRUE				2021-01-15
+真	42	m	ルキフゲス	バースト	ファイター			TRUE		2021-02-28
 真	43	f	サルガタナス	バースト	スナイパー		TRUE			2019-04-30
 真	44	m	タムス	バースト	ファイター				TRUE	2020-11-22
 真	47	f	ヴェルドレ	バースト	スナイパー				TRUE	2021-01-01
@@ -182,5 +184,6 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	66	f	マモン	ラッシュ	スナイパー		TRUE			2020-12-22
 真	68	f	ネルガル	カウンター	スナイパー				TRUE	2019-01-01
 真	69	m	バールゼフォン	バースト	スナイパー				TRUE	2019-04-30
+真	69	m	バールゼフォン	カウンター	スナイパー	TRUE			TRUE	2021-02-28
 真	70	f	アスラフィル	ラッシュ	トルーパー				TRUE	2019-06-30
 真	71	m	アクィエル	カウンター	スナイパー				TRUE	2019-07-31

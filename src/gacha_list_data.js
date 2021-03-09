@@ -1111,7 +1111,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "コレチケ5枚",
     rate_settings: {
@@ -1151,4 +1150,44 @@ export default [
       }
     }
   },
+  */
+ {
+  name: "男コレチケ5枚",
+  rate_settings: {
+    base_rate: 1.0,
+    megido_back_of: "2020-12-01",
+    exclude: megido =>{
+      return !(megido.gender === "m");
+    }
+  }
+},
+{
+  name: "男コレチケ10枚",
+  rate_settings: {
+    base_rate: 1.0,
+    megido_back_of: "2020-12-01",
+    exclude: megido => {
+      return !(
+        megido.gender === "m" && 
+        ( 
+        megido.clock_type === "真" ||
+        megido.regenerated ||
+        megido.terminus
+        )
+      );
+    }
+  }
+},
+{
+  name: "男コレチケ15枚",
+  rate_settings: {
+    base_rate: 1.0,
+    megido_back_of: "2020-12-01",
+    exclude: megido => {
+      return !(
+        megido.gender === "m" &&
+        (megido.regenerated || megido.terminus));
+    }
+  }
+},
 ];

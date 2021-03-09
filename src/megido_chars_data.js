@@ -1797,6 +1797,20 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 11,
+        "gender": "f",
+        "name": "コルソン",
+        "style": "ラッシュ",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-02-11",
+        "id": "真11R"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 12,
         "gender": "f",
         "name": "ジニマル",
@@ -2217,6 +2231,20 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 42,
+        "gender": "m",
+        "name": "ルキフゲス",
+        "style": "バースト",
+        "class": "ファイター",
+        "regenerated": false,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2021-02-28",
+        "id": "真42"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 43,
         "gender": "f",
         "name": "サルガタナス",
@@ -2564,6 +2592,20 @@
         "terminus": true,
         "implemented": "2019-04-30",
         "id": "真69"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 69,
+        "gender": "m",
+        "name": "バールゼフォン",
+        "style": "カウンター",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": true,
+        "implemented": "2021-02-28",
+        "id": "真69R"
     },
     {
         "clock_type": "真",
