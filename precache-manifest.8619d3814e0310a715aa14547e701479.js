@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df3519b9b7bfd27933716fe137556b84",
+    "revision": "777e19f4b4649ceb47f2dbe35cc21dfb",
     "url": "/megido-gacha-site/index.html"
   },
   {
-    "revision": "ca6bf415db67eff59898",
+    "revision": "9472f50af2755d3f1a17",
     "url": "/megido-gacha-site/static/css/main.6f473e9e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/megido-gacha-site/static/js/2.1cbeba33.chunk.js.LICENSE"
   },
   {
-    "revision": "ca6bf415db67eff59898",
-    "url": "/megido-gacha-site/static/js/main.fd148d6d.chunk.js"
+    "revision": "9472f50af2755d3f1a17",
+    "url": "/megido-gacha-site/static/js/main.7d4d31a6.chunk.js"
   },
   {
     "revision": "259883be04cf0c5e0b2a",
