@@ -1151,43 +1151,53 @@ export default [
     }
   },
   */
- {
-  name: "男コレチケ5枚",
-  rate_settings: {
-    base_rate: 1.0,
-    megido_back_of: "2020-12-01",
-    exclude: megido =>{
-      return !(megido.gender === "m");
+  {
+    name: "二人で一人の最強コンビ",
+    rate_settings: {
+      megido_back_of: "2021-03-15",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {
+        真50R: 0.012,
+        祖23R: 0.006
+      }
+    }
+  },
+  {
+    name: "男コレチケ5枚",
+    rate_settings: {
+      base_rate: 1.0,
+      megido_back_of: "2020-12-01",
+      exclude: megido => {
+        return !(megido.gender === "m");
+      }
+    }
+  },
+  {
+    name: "男コレチケ10枚",
+    rate_settings: {
+      base_rate: 1.0,
+      megido_back_of: "2020-12-01",
+      exclude: megido => {
+        return !(
+          megido.gender === "m" &&
+          (megido.clock_type === "真" || megido.regenerated || megido.terminus)
+        );
+      }
+    }
+  },
+  {
+    name: "男コレチケ15枚",
+    rate_settings: {
+      base_rate: 1.0,
+      megido_back_of: "2020-12-01",
+      exclude: megido => {
+        return !(
+          megido.gender === "m" &&
+          (megido.regenerated || megido.terminus)
+        );
+      }
     }
   }
-},
-{
-  name: "男コレチケ10枚",
-  rate_settings: {
-    base_rate: 1.0,
-    megido_back_of: "2020-12-01",
-    exclude: megido => {
-      return !(
-        megido.gender === "m" && 
-        ( 
-        megido.clock_type === "真" ||
-        megido.regenerated ||
-        megido.terminus
-        )
-      );
-    }
-  }
-},
-{
-  name: "男コレチケ15枚",
-  rate_settings: {
-    base_rate: 1.0,
-    megido_back_of: "2020-12-01",
-    exclude: megido => {
-      return !(
-        megido.gender === "m" &&
-        (megido.regenerated || megido.terminus));
-    }
-  }
-},
 ];

@@ -2329,6 +2329,20 @@
     },
     {
         "clock_type": "真",
+        "clock_id": 50,
+        "gender": "m",
+        "name": "シャミハザ",
+        "style": "ラッシュ",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-03-15",
+        "id": "真50R"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 51,
         "gender": "f",
         "name": "プルフラス",

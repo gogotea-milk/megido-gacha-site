@@ -165,6 +165,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	48	m	ウトゥック	ラッシュ	スナイパー		TRUE			2020-07-27
 真	49	f	サタナイル	バースト	トルーパー			TRUE		2019-04-02
 真	50	m	シャミハザ	カウンター	ファイター			TRUE		2018-04-27
+真	50	m	シャミハザ	ラッシュ	ファイター	TRUE				2021-03-15
 真	51	f	プルフラス	ラッシュ	ファイター			TRUE		2018-06-01
 真	51	f	プルフラス	バースト	ファイター	TRUE				2020-02-29
 真	52	f	ジズ	バースト	スナイパー			TRUE		2018-08-02
