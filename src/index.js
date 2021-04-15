@@ -21,8 +21,8 @@ class App extends React.Component {
           )
         )
       : [];
-    megido_exist_list = megido_exist_list.filter(v=>v.indexOf('73') < 0); // Removes temporary used megido id
-    console.log("loaded and filtered from hash", megido_exist_list);   
+    megido_exist_list = megido_exist_list.filter(v => v.indexOf("73") < 0); // Removes temporary used megido id
+    console.log("loaded and filtered from hash", megido_exist_list);
 
     const clock_type_order = {
       祖: 0,
@@ -33,7 +33,7 @@ class App extends React.Component {
     this.megido_all_statics = {
       total: 0,
       main_evt: 0,
-      gacha:0,
+      gacha: 0
     };
 
     const megido_chars = MegidoCharsData.sort((v1, v2) => {
@@ -56,7 +56,9 @@ class App extends React.Component {
 
       // Count while mapping all existing megido
       this.megido_all_statics.total += 1;
-      (megido.main || megido.event)? this.megido_all_statics.main_evt += 1: this.megido_all_statics.gacha += 1 ;    
+      megido.main || megido.event
+        ? (this.megido_all_statics.main_evt += 1)
+        : (this.megido_all_statics.gacha += 1);
 
       return megido;
     });
@@ -228,17 +230,19 @@ class App extends React.Component {
     return gacha_summary;
   }
 
-  calc_exist_summary(){
+  calc_exist_summary() {
     const megido_exist_statics = {
       total: 0,
       main_evt: 0,
-      gacha:0,
+      gacha: 0
     };
 
-    this.state.megido_exist_list.forEach(megido_id=>{
+    this.state.megido_exist_list.forEach(megido_id => {
       let megido = this.megido_index[megido_id];
       megido_exist_statics.total += 1;
-      (megido.main || megido.event)? megido_exist_statics.main_evt += 1: megido_exist_statics.gacha += 1 ;    
+      megido.main || megido.event
+        ? (megido_exist_statics.main_evt += 1)
+        : (megido_exist_statics.gacha += 1);
     });
 
     return megido_exist_statics;
@@ -306,6 +310,50 @@ class App extends React.Component {
             このサイトについて
           </a>
         </div>
+        <div className="mb-4">
+          <table className="table-auto border-collapse border-2 border-gray-500">
+            <thead>
+              <tr>
+                <th className="border border-gray-400 p-1 text-gray-800 bg-green-100"></th>
+                <th className="border border-gray-400 p-1 text-gray-800 bg-green-100">
+                  召喚済み
+                </th>
+                <th className="border border-gray-400 p-1 text-gray-800 bg-green-100">
+                  全メギド
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border text-right pr-1">ガチャ</td>
+                <td className="border text-right pr-1">
+                  {this.calc_exist_summary().gacha}
+                </td>
+                <td className="border text-right pr-1">
+                  {this.megido_all_statics.gacha}
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-right pr-1">メイン・イベント</td>
+                <td className="border text-right pr-1">
+                  {this.calc_exist_summary().main_evt}
+                </td>
+                <td className="border text-right pr-1">
+                  {this.megido_all_statics.main_evt}
+                </td>
+              </tr>
+              <tr className="border-t-4">
+                <td className="border text-right pr-1 font-semibold">計</td>
+                <td className="border text-right pr-1">
+                  {this.calc_exist_summary().total}
+                </td>
+                <td className="border text-right pr-1">
+                  {this.megido_all_statics.total}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <div>
           <GachaList
             gacha_list_data={this.gacha_list_data}
@@ -346,10 +394,6 @@ class App extends React.Component {
           />
         </div>
         <div className="mt-1">
-          Total: {this.calc_exist_summary().total} / {this.megido_all_statics.total},
-          Gacha: {this.calc_exist_summary().gacha} / {this.megido_all_statics.gacha},
-          Main/Evt: {this.calc_exist_summary().main_evt} / {this.megido_all_statics.main_evt},
-
           <MegidoList
             megido_chars={filtered_megido_chars}
             gacha_list_data={this.gacha_list_data}
