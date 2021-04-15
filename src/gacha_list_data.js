@@ -1150,7 +1150,6 @@ export default [
       }
     }
   },
-  */
   {
     name: "二人で一人の最強コンビ",
     rate_settings: {
@@ -1199,5 +1198,19 @@ export default [
         );
       }
     }
-  }
+  },
+  */
+  {
+    name: "救済の伝道師",
+    rate_settings: {
+      megido_back_of: "2021-04-15",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {        
+        祖30R: 0.012,
+        真16: 0.006
+      }
+    }
+  },
 ];

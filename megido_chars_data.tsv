@@ -46,7 +46,9 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 祖	29	f	アスタロト	ラッシュ	ファイター					2017-12-19
 祖	29	f	アスタロト	バースト	ファイター	TRUE				2018-11-15
 祖	30	m	フォルネウス	カウンター	トルーパー					
+祖	30	m	フォルネウス	バースト	トルーパー	TRUE				2021-04-15
 祖	31	m	フォラス	バースト	スナイパー					
+祖	31	m	フォラス	カウンター	スナイパー	TRUE		TRUE		2021-03-31
 祖	32	f	アスモデウス	バースト	ファイター		TRUE			2018-07-24
 祖	33	m	ガープ	カウンター	ファイター		TRUE			
 祖	34	f	フルフル	バースト	スナイパー					
@@ -155,6 +157,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	36	m	メフィスト	バースト	スナイパー					2018-03-22
 真	38	f	アガリアレプト	バースト	ファイター			TRUE		2018-02-14
 真	38	f	アガリアレプト	ラッシュ	ファイター	TRUE				2019-02-14
+真	39	f	ウコバク	バースト	トルーパー					2021-03-31
 真	40	f	グザファン	ラッシュ	スナイパー			TRUE		2020-09-29
 真	41	m	アマイモン	カウンター	ファイター					2018-07-13
 真	41	m	アマイモン	ラッシュ	ファイター	TRUE				2021-01-15

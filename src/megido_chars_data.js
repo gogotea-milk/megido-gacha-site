@@ -663,6 +663,20 @@
     },
     {
         "clock_type": "祖",
+        "clock_id": 30,
+        "gender": "m",
+        "name": "フォルネウス",
+        "style": "バースト",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-04-15",
+        "id": "祖30R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 31,
         "gender": "m",
         "name": "フォラス",
@@ -674,6 +688,20 @@
         "terminus": false,
         "implemented": null,
         "id": "祖31"
+    },
+    {
+        "clock_type": "祖",
+        "clock_id": 31,
+        "gender": "m",
+        "name": "フォラス",
+        "style": "カウンター",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2021-03-31",
+        "id": "祖31R"
     },
     {
         "clock_type": "祖",
@@ -2186,6 +2214,20 @@
         "terminus": false,
         "implemented": "2019-02-14",
         "id": "真38R"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 39,
+        "gender": "f",
+        "name": "ウコバク",
+        "style": "バースト",
+        "class": "トルーパー",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-03-31",
+        "id": "真39"
     },
     {
         "clock_type": "真",
