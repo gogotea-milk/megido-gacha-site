@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/megido-gacha-site/static/css/main.1c800686.chunk.css",
-    "main.js": "/megido-gacha-site/static/js/main.cf25c35e.chunk.js",
-    "main.js.map": "/megido-gacha-site/static/js/main.cf25c35e.chunk.js.map",
-    "runtime-main.js": "/megido-gacha-site/static/js/runtime-main.cd503bcd.js",
-    "runtime-main.js.map": "/megido-gacha-site/static/js/runtime-main.cd503bcd.js.map",
-    "static/js/2.1cbeba33.chunk.js": "/megido-gacha-site/static/js/2.1cbeba33.chunk.js",
-    "static/js/2.1cbeba33.chunk.js.map": "/megido-gacha-site/static/js/2.1cbeba33.chunk.js.map",
+    "main.css": "/megido-gacha-site/static/css/main.d2da18a8.chunk.css",
+    "main.js": "/megido-gacha-site/static/js/main.482d8cc4.chunk.js",
+    "main.js.map": "/megido-gacha-site/static/js/main.482d8cc4.chunk.js.map",
+    "runtime-main.js": "/megido-gacha-site/static/js/runtime-main.61fd9ddb.js",
+    "runtime-main.js.map": "/megido-gacha-site/static/js/runtime-main.61fd9ddb.js.map",
+    "static/js/2.03079e4b.chunk.js": "/megido-gacha-site/static/js/2.03079e4b.chunk.js",
+    "static/js/2.03079e4b.chunk.js.map": "/megido-gacha-site/static/js/2.03079e4b.chunk.js.map",
     "index.html": "/megido-gacha-site/index.html",
-    "precache-manifest.2aadf431a2843d3f37bc9c464974b483.js": "/megido-gacha-site/precache-manifest.2aadf431a2843d3f37bc9c464974b483.js",
-    "service-worker.js": "/megido-gacha-site/service-worker.js",
-    "static/css/main.1c800686.chunk.css.map": "/megido-gacha-site/static/css/main.1c800686.chunk.css.map",
-    "static/js/2.1cbeba33.chunk.js.LICENSE": "/megido-gacha-site/static/js/2.1cbeba33.chunk.js.LICENSE"
+    "static/css/main.d2da18a8.chunk.css.map": "/megido-gacha-site/static/css/main.d2da18a8.chunk.css.map",
+    "static/js/2.03079e4b.chunk.js.LICENSE.txt": "/megido-gacha-site/static/js/2.03079e4b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd503bcd.js",
-    "static/js/2.1cbeba33.chunk.js",
-    "static/css/main.1c800686.chunk.css",
-    "static/js/main.cf25c35e.chunk.js"
+    "static/js/runtime-main.61fd9ddb.js",
+    "static/js/2.03079e4b.chunk.js",
+    "static/css/main.d2da18a8.chunk.css",
+    "static/js/main.482d8cc4.chunk.js"
   ]
 }
