@@ -2,7 +2,7 @@
  * Gatcha List data with utility functions
  */
 
-export default [
+const GachaListData =  [
   /*
   {
     name: "コレチケ7枚",
@@ -1214,3 +1214,5 @@ export default [
     }
   },
 ];
+
+export default GachaListData;

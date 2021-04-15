@@ -1,8 +1,8 @@
 
-    /**
-     * Generated from tools/generate_megido_chars_data.js     
-    */
-    export default [
+/**
+* Generated from tools/generate_megido_chars_data.js     
+*/
+const MegidoCharsData = [
     {
         "clock_type": "祖",
         "clock_id": 1,
@@ -2692,4 +2692,6 @@
         "id": "真71"
     }
 ];
+
+export default MegidoCharsData;
     

@@ -57,10 +57,12 @@ parser.on("end", function() {
   fs.writeFile(
     output_path,
     `
-    /**
-     * Generated from tools/generate_megido_chars_data.js     
-    */
-    export default ${JSON.stringify(megido_chars_data, null, 4)};
+/**
+* Generated from tools/generate_megido_chars_data.js     
+*/
+const MegidoCharsData = ${JSON.stringify(megido_chars_data, null, 4)};
+
+export default MegidoCharsData;
     `,
     function(err) {
       if (err) {

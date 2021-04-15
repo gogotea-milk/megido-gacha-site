@@ -6,6 +6,7 @@ import GachaListData from "./gacha_list_data";
 import MegidoList from "./megido_list";
 import GachaList from "./gacha_list";
 import FilterToggleGroup from "./filter_toggle_group";
+import { Helmet } from "react-helmet";
 import "./styles.css";
 
 class App extends React.Component {
@@ -301,6 +302,10 @@ class App extends React.Component {
 
     return (
       <div className="app container mx-auto px-1 pb-1 text-sm">
+        <Helmet>
+          <title>[{`${this.calc_exist_summary().total}`}/{`${this.megido_all_statics.total}`}]メギド72ガチャ被り計算機</title>
+        </Helmet>
+
         <h1 className="text-2xl mt-6">メギドガチャ被り計算機</h1>
         <div className="my-1">
           <a
