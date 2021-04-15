@@ -22,8 +22,7 @@ class App extends React.Component {
         )
       : [];
     megido_exist_list = megido_exist_list.filter(v=>v.indexOf('73') < 0); // Removes temporary used megido id
-    console.log("loaded and filtered from hash", megido_exist_list);
-    
+    console.log("loaded and filtered from hash", megido_exist_list);   
 
     const clock_type_order = {
       祖: 0,
@@ -31,6 +30,11 @@ class App extends React.Component {
     };
 
     const megido_index = {};
+    this.megido_all_statics = {
+      total: 0,
+      main_evt: 0,
+      gacha:0,
+    };
 
     const megido_chars = MegidoCharsData.sort((v1, v2) => {
       if (v1.clock_type !== v2.clock_type) {
@@ -49,6 +53,10 @@ class App extends React.Component {
         megido_exist_list.push(megido.id);
       }
       megido_index[megido.id] = megido;
+
+      // Count while mapping all existing megido
+      this.megido_all_statics.total += 1;
+      (megido.main || megido.event)? this.megido_all_statics.main_evt += 1: this.megido_all_statics.gacha += 1 ;    
 
       return megido;
     });
@@ -73,6 +81,7 @@ class App extends React.Component {
     this.gacha_list_data = gacha_list_data;
     this.megido_gacha_rates = megido_gacha_rates;
     this.megido_gacha_rates_map = megido_gacha_rates_map;
+    this.megido_index = megido_index;
 
     this.handleMegidoExistChanged = this.handleMegidoExistChanged.bind(this);
 
@@ -219,6 +228,22 @@ class App extends React.Component {
     return gacha_summary;
   }
 
+  calc_exist_summary(){
+    const megido_exist_statics = {
+      total: 0,
+      main_evt: 0,
+      gacha:0,
+    };
+
+    this.state.megido_exist_list.forEach(megido_id=>{
+      let megido = this.megido_index[megido_id];
+      megido_exist_statics.total += 1;
+      (megido.main || megido.event)? megido_exist_statics.main_evt += 1: megido_exist_statics.gacha += 1 ;    
+    });
+
+    return megido_exist_statics;
+  }
+
   handleFilterToggled(filter_name, toggled_item, i) {
     const next = {
       ...this.state[filter_name]
@@ -321,6 +346,10 @@ class App extends React.Component {
           />
         </div>
         <div className="mt-1">
+          Total: {this.calc_exist_summary().total} / {this.megido_all_statics.total},
+          Gacha: {this.calc_exist_summary().gacha} / {this.megido_all_statics.gacha},
+          Main/Evt: {this.calc_exist_summary().main_evt} / {this.megido_all_statics.main_evt},
+
           <MegidoList
             megido_chars={filtered_megido_chars}
             gacha_list_data={this.gacha_list_data}
