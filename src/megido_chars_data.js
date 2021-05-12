@@ -439,6 +439,20 @@ const MegidoCharsData = [
     },
     {
         "clock_type": "祖",
+        "clock_id": 20,
+        "gender": "m",
+        "name": "プルソン",
+        "style": "バースト",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": true,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-04-28",
+        "id": "祖20R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 21,
         "gender": "m",
         "name": "モラクス",
@@ -2035,6 +2049,20 @@ const MegidoCharsData = [
     },
     {
         "clock_type": "真",
+        "clock_id": 23,
+        "gender": "f",
+        "name": "ネフィリム",
+        "style": "カウンター",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": true,
+        "implemented": "2021-04-30",
+        "id": "真23R"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 24,
         "gender": "f",
         "name": "ミノソン",
@@ -2189,6 +2217,20 @@ const MegidoCharsData = [
     },
     {
         "clock_type": "真",
+        "clock_id": 37,
+        "gender": "f",
+        "name": "ネビロス",
+        "style": "ラッシュ",
+        "class": "スナイパー",
+        "regenerated": false,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2021-04-30",
+        "id": "真37"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 38,
         "gender": "f",
         "name": "アガリアレプト",
@@ -2312,6 +2354,20 @@ const MegidoCharsData = [
         "terminus": true,
         "implemented": "2020-11-22",
         "id": "真44"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 46,
+        "gender": "m",
+        "name": "アガシオン",
+        "style": "カウンター",
+        "class": "ファイター",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-05-14",
+        "id": "真46"
     },
     {
         "clock_type": "真",

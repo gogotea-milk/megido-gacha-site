@@ -1199,7 +1199,6 @@ const GachaListData =  [
       }
     }
   },
-  */
   {
     name: "救済の伝道師",
     rate_settings: {
@@ -1210,6 +1209,19 @@ const GachaListData =  [
       pickup: {        
         祖30R: 0.012,
         真16: 0.006
+      }
+    }
+  },
+  */
+  {
+    name: "砦がツボ",
+    rate_settings: {
+      megido_back_of: "2021-05-14",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {        
+        真46: 0.012
       }
     }
   },

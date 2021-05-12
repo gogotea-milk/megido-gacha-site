@@ -30,6 +30,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 祖	19	m	サレオス	バースト	ファイター					
 祖	19	m	サレオス	カウンター	ファイター	TRUE				2020-01-14
 祖	20	m	プルソン	ラッシュ	トルーパー					
+祖	20	m	プルソン	バースト	トルーパー	TRUE	TRUE			2021-04-28
 祖	21	m	モラクス	バースト	ファイター		TRUE			
 祖	22	m	イポス	カウンター	ファイター	TRUE		TRUE		2019-07-30
 祖	22	m	イポス	ラッシュ	ファイター					
@@ -144,6 +145,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	22	m	カスピエル	バースト	トルーパー			TRUE		2018-03-14
 真	22	m	カスピエル	カウンター	トルーパー	TRUE				2019-03-15
 真	23	f	ネフィリム	カウンター	スナイパー				TRUE	2020-01-01
+真	23	f	ネフィリム	カウンター	スナイパー	TRUE			TRUE	2021-04-30
 真	24	f	ミノソン	バースト	スナイパー				TRUE	2020-09-30
 真	25	m	ニスロク	ラッシュ	ファイター				TRUE	2019-11-30
 真	26	m	オレイ	カウンター	ファイター					2020-04-21
@@ -155,6 +157,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	34	f	マスティマ	カウンター	トルーパー			TRUE		2021-01-02
 真	36	m	メフィスト	カウンター	スナイパー	TRUE		TRUE		2019-03-12
 真	36	m	メフィスト	バースト	スナイパー					2018-03-22
+真	37	f	ネビロス	ラッシュ	スナイパー			TRUE		2021-04-30
 真	38	f	アガリアレプト	バースト	ファイター			TRUE		2018-02-14
 真	38	f	アガリアレプト	ラッシュ	ファイター	TRUE				2019-02-14
 真	39	f	ウコバク	バースト	トルーパー					2021-03-31
@@ -164,6 +167,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	42	m	ルキフゲス	バースト	ファイター			TRUE		2021-02-28
 真	43	f	サルガタナス	バースト	スナイパー		TRUE			2019-04-30
 真	44	m	タムス	バースト	ファイター				TRUE	2020-11-22
+真	46	m	アガシオン	カウンター	ファイター					2021-05-14
 真	47	f	ヴェルドレ	バースト	スナイパー				TRUE	2021-01-01
 真	48	m	ウトゥック	ラッシュ	スナイパー		TRUE			2020-07-27
 真	49	f	サタナイル	バースト	トルーパー			TRUE		2019-04-02
