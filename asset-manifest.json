@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/megido-gacha-site/static/css/main.d2da18a8.chunk.css",
-    "main.js": "/megido-gacha-site/static/js/main.482d8cc4.chunk.js",
-    "main.js.map": "/megido-gacha-site/static/js/main.482d8cc4.chunk.js.map",
+    "main.js": "/megido-gacha-site/static/js/main.ce20ec62.chunk.js",
+    "main.js.map": "/megido-gacha-site/static/js/main.ce20ec62.chunk.js.map",
     "runtime-main.js": "/megido-gacha-site/static/js/runtime-main.61fd9ddb.js",
     "runtime-main.js.map": "/megido-gacha-site/static/js/runtime-main.61fd9ddb.js.map",
     "static/js/2.03079e4b.chunk.js": "/megido-gacha-site/static/js/2.03079e4b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.61fd9ddb.js",
     "static/js/2.03079e4b.chunk.js",
     "static/css/main.d2da18a8.chunk.css",
-    "static/js/main.482d8cc4.chunk.js"
+    "static/js/main.ce20ec62.chunk.js"
   ]
 }
