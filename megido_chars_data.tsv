@@ -3,6 +3,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 祖	2	m	アガレス	バースト	スナイパー					
 祖	2	m	アガレス	カウンター	スナイパー	TRUE		TRUE		2019-10-30
 祖	3	f	ウァサゴ	ラッシュ	ファイター					
+祖	3	f	ウァサゴ	バースト	ファイター	TRUE				2021-05-31
 祖	4	m	ガミジン	カウンター	ファイター					
 祖	5	f	マルバス	カウンター	スナイパー					
 祖	5	f	マルバス	ラッシュ	スナイパー	TRUE		TRUE		2018-09-28
@@ -37,6 +38,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 祖	23	f	アイム	ラッシュ	スナイパー	TRUE				2019-08-11
 祖	23	f	アイム	バースト	スナイパー					
 祖	24	f	ナベリウス	ラッシュ	トルーパー					
+祖	24	f	ナベリウス	バースト	トルーパー	TRUE				
 祖	25	m	グラシャラボラス	バースト	トルーパー					
 祖	25	m	グラシャラボラス	カウンター	トルーパー	TRUE				2020-12-14
 祖	26	m	ブネ	ラッシュ	ファイター		TRUE			
@@ -52,6 +54,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 祖	31	m	フォラス	カウンター	スナイパー	TRUE		TRUE		2021-03-31
 祖	32	f	アスモデウス	バースト	ファイター		TRUE			2018-07-24
 祖	33	m	ガープ	カウンター	ファイター		TRUE			
+祖	33	m	ガープ	ラッシュ	ファイター	TRUE				
 祖	34	f	フルフル	バースト	スナイパー					
 祖	34	f	フルフル	カウンター	スナイパー	TRUE				2020-04-10
 祖	35	f	マルコシアス	バースト	スナイパー	TRUE				2018-12-07
@@ -69,6 +72,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 祖	42	f	ウェパル	ラッシュ	トルーパー		TRUE			
 祖	42	f	ウェパル	バースト	トルーパー	TRUE	TRUE			2018-10-04
 祖	43	m	サブナック	カウンター	ファイター					
+祖	43	m	サブナック	バースト	ファイター	TRUE		TRUE		2021-05-28
 祖	44	f	シャックス	カウンター	ファイター		TRUE			
 祖	44	f	シャックス	バースト	ファイター	TRUE				2019-12-07
 祖	45	f	ヴィネ	ラッシュ	スナイパー	TRUE				2018-10-10
@@ -155,6 +159,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	31	f	フルーレティ	カウンター	スナイパー					2019-08-31
 真	33	m	ハック	カウンター	ファイター			TRUE		2019-06-01
 真	34	f	マスティマ	カウンター	トルーパー			TRUE		2021-01-02
+真	35	f	ブリフォー	ラッシュ	ファイター			TRUE		2021-07-12
 真	36	m	メフィスト	カウンター	スナイパー	TRUE		TRUE		2019-03-12
 真	36	m	メフィスト	バースト	スナイパー					2018-03-22
 真	37	f	ネビロス	ラッシュ	スナイパー			TRUE		2021-04-30
@@ -186,6 +191,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	59	m	スコルベノト	カウンター	トルーパー					2020-01-31
 真	61	f	フィロタヌス	バースト	スナイパー					2020-10-31
 真	62	f	インプ	バースト	トルーパー					2018-10-31
+真	62	f	インプ	ラッシュ	トルーパー	TRUE				2021-07-14
 真	63	m	アマゼロト	ラッシュ	トルーパー					2020-03-31
 真	64	f	プロメテウス	バースト	スナイパー				TRUE	2018-07-31
 真	65	m	ベルフェゴール	カウンター	ファイター		TRUE			2019-08-26

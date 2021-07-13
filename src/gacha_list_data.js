@@ -1212,7 +1212,6 @@ const GachaListData =  [
       }
     }
   },
-  */
   {
     name: "砦がツボ",
     rate_settings: {
@@ -1222,6 +1221,20 @@ const GachaListData =  [
       },
       pickup: {        
         真46: 0.012
+      }
+    }
+  },
+  */
+  {
+    name: "21グラム",
+    rate_settings: {
+      megido_back_of: "2021-07-14",
+      exclude: megido => {
+        return megido.terminus;
+      },
+      pickup: {       
+        真62R: 0.012, 
+        真46: 0.006
       }
     }
   },

@@ -61,6 +61,20 @@ const MegidoCharsData = [
     },
     {
         "clock_type": "祖",
+        "clock_id": 3,
+        "gender": "f",
+        "name": "ウァサゴ",
+        "style": "バースト",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-05-31",
+        "id": "祖3R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 4,
         "gender": "m",
         "name": "ガミジン",
@@ -537,6 +551,20 @@ const MegidoCharsData = [
     },
     {
         "clock_type": "祖",
+        "clock_id": 24,
+        "gender": "f",
+        "name": "ナベリウス",
+        "style": "バースト",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": null,
+        "id": "祖24R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 25,
         "gender": "m",
         "name": "グラシャラボラス",
@@ -744,6 +772,20 @@ const MegidoCharsData = [
         "terminus": false,
         "implemented": null,
         "id": "祖33"
+    },
+    {
+        "clock_type": "祖",
+        "clock_id": 33,
+        "gender": "m",
+        "name": "ガープ",
+        "style": "ラッシュ",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": null,
+        "id": "祖33R"
     },
     {
         "clock_type": "祖",
@@ -982,6 +1024,20 @@ const MegidoCharsData = [
         "terminus": false,
         "implemented": null,
         "id": "祖43"
+    },
+    {
+        "clock_type": "祖",
+        "clock_id": 43,
+        "gender": "m",
+        "name": "サブナック",
+        "style": "バースト",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2021-05-28",
+        "id": "祖43R"
     },
     {
         "clock_type": "祖",
@@ -2189,6 +2245,20 @@ const MegidoCharsData = [
     },
     {
         "clock_type": "真",
+        "clock_id": 35,
+        "gender": "f",
+        "name": "ブリフォー",
+        "style": "ラッシュ",
+        "class": "ファイター",
+        "regenerated": false,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2021-07-12",
+        "id": "真35"
+    },
+    {
+        "clock_type": "真",
         "clock_id": 36,
         "gender": "m",
         "name": "メフィスト",
@@ -2620,6 +2690,20 @@ const MegidoCharsData = [
         "terminus": false,
         "implemented": "2018-10-31",
         "id": "真62"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 62,
+        "gender": "f",
+        "name": "インプ",
+        "style": "ラッシュ",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-07-14",
+        "id": "真62R"
     },
     {
         "clock_type": "真",
