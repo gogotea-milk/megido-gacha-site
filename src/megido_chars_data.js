@@ -383,6 +383,20 @@ const MegidoCharsData = [
     },
     {
         "clock_type": "祖",
+        "clock_id": 17,
+        "gender": "f",
+        "name": "ボティス",
+        "style": "ラッシュ",
+        "class": "トルーパー",
+        "regenerated": true,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2021-07-30",
+        "id": "祖17R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 18,
         "gender": "f",
         "name": "バティン",
@@ -1545,6 +1559,20 @@ const MegidoCharsData = [
     },
     {
         "clock_type": "祖",
+        "clock_id": 67,
+        "gender": "f",
+        "name": "アムドゥスキアス",
+        "style": "カウンター",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": true,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-07-29",
+        "id": "祖67R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 68,
         "gender": "f",
         "name": "ベリアル",
@@ -1836,6 +1864,20 @@ const MegidoCharsData = [
         "terminus": false,
         "implemented": "2019-05-03",
         "id": "真7"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 7,
+        "gender": "m",
+        "name": "ヒュトギン",
+        "style": "カウンター",
+        "class": "スナイパー",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-08-12",
+        "id": "真7R"
     },
     {
         "clock_type": "真",
@@ -2606,6 +2648,20 @@ const MegidoCharsData = [
         "terminus": false,
         "implemented": "2018-04-14",
         "id": "真55"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 56,
+        "gender": "m",
+        "name": "バロール",
+        "style": "ラッシュ",
+        "class": "ファイター",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-07-31",
+        "id": "真56"
     },
     {
         "clock_type": "真",

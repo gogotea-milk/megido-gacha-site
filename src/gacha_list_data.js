@@ -2,7 +2,7 @@
  * Gatcha List data with utility functions
  */
 
-const GachaListData =  [
+const GachaListData = [
   /*
   {
     name: "コレチケ7枚",
@@ -1224,7 +1224,6 @@ const GachaListData =  [
       }
     }
   },
-  */
   {
     name: "21グラム",
     rate_settings: {
@@ -1238,6 +1237,19 @@ const GachaListData =  [
       }
     }
   },
+  */
+  {
+    name: "バロールサバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2021-07-30",
+      pickup: {
+        真56: 0.012,
+        祖3R: 0.006,
+        真4R: 0.0035
+      }
+    }
+  }
 ];
 
 export default GachaListData;
