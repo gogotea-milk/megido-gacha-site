@@ -34,6 +34,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 祖	20	m	プルソン	ラッシュ	トルーパー					
 祖	20	m	プルソン	バースト	トルーパー	TRUE	TRUE			2021-04-28
 祖	21	m	モラクス	バースト	ファイター		TRUE			
+祖	21	m	モラクス	ラッシュ	ファイター	TRUE				2021-09-30
 祖	22	m	イポス	カウンター	ファイター	TRUE		TRUE		2019-07-30
 祖	22	m	イポス	ラッシュ	ファイター					
 祖	23	f	アイム	ラッシュ	スナイパー	TRUE				2019-08-11
@@ -81,6 +82,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 祖	46	f	ビフロンス	ラッシュ	トルーパー					
 祖	46	f	ビフロンス	カウンター	トルーパー	TRUE				2020-07-15
 祖	47	f	ウヴァル	ラッシュ	ファイター					
+祖	47	f	ウヴァル	カウンター	ファイター	TRUE		TRUE		2021-09-30
 祖	48	f	ハーゲンティ	カウンター	トルーパー					2017-12-29
 祖	48	f	ハーゲンティ	バースト	トルーパー	TRUE		TRUE		2018-11-27
 祖	49	f	クロケル	ラッシュ	スナイパー	TRUE				2019-04-15
@@ -89,6 +91,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 祖	50	f	フルカス	カウンター	ファイター	TRUE				2021-01-31
 祖	51	m	バラム	カウンター	ファイター		TRUE			2018-06-29
 祖	52	m	アロケル	カウンター	ファイター					
+祖	52	m	アロケル	ラッシュ	ファイター	TRUE		TRUE		2021-08-31
 祖	53	m	カイム	カウンター	スナイパー					
 祖	54	f	ムルムル	ラッシュ	スナイパー					
 祖	55	m	オロバス	ラッシュ	スナイパー					
@@ -152,12 +155,13 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	22	m	カスピエル	バースト	トルーパー			TRUE		2018-03-14
 真	22	m	カスピエル	カウンター	トルーパー	TRUE				2019-03-15
 真	23	f	ネフィリム	カウンター	スナイパー				TRUE	2020-01-01
-真	23	f	ネフィリム	カウンター	スナイパー	TRUE			TRUE	2021-04-30
+真	23	f	ネフィリム	バースト	スナイパー	TRUE			TRUE	2021-04-30
 真	24	f	ミノソン	バースト	スナイパー				TRUE	2020-09-30
 真	25	m	ニスロク	ラッシュ	ファイター				TRUE	2019-11-30
 真	26	m	オレイ	カウンター	ファイター					2020-04-21
 真	27	f	マルチネ	バースト	ファイター					2019-05-31
 真	28	m	アザゼル	ラッシュ	ファイター					2020-07-05
+真	29	f	アルマロス	バースト	スナイパー					2021-09-11
 真	30	f	バラキエル	カウンター	スナイパー			TRUE		2020-10-29
 真	31	f	フルーレティ	カウンター	スナイパー					2019-08-31
 真	33	m	ハック	カウンター	ファイター			TRUE		2019-06-01
@@ -175,6 +179,7 @@ clock_type	clock_id	gender	name	style	class	regenerated	main	event	terminus	impl
 真	42	m	ルキフゲス	バースト	ファイター			TRUE		2021-02-28
 真	43	f	サルガタナス	バースト	スナイパー		TRUE			2019-04-30
 真	44	m	タムス	バースト	ファイター				TRUE	2020-11-22
+真	45	m	チェルノボグ	バースト	ファイター				TRUE	2021-08-31
 真	46	m	アガシオン	カウンター	ファイター					2021-05-14
 真	47	f	ヴェルドレ	バースト	スナイパー				TRUE	2021-01-01
 真	48	m	ウトゥック	ラッシュ	スナイパー		TRUE			2020-07-27

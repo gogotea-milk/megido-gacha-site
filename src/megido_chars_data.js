@@ -495,6 +495,20 @@ const MegidoCharsData = [
     },
     {
         "clock_type": "祖",
+        "clock_id": 21,
+        "gender": "m",
+        "name": "モラクス",
+        "style": "ラッシュ",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-09-30",
+        "id": "祖21R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 22,
         "gender": "m",
         "name": "イポス",
@@ -1153,6 +1167,20 @@ const MegidoCharsData = [
     },
     {
         "clock_type": "祖",
+        "clock_id": 47,
+        "gender": "f",
+        "name": "ウヴァル",
+        "style": "カウンター",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2021-09-30",
+        "id": "祖47R"
+    },
+    {
+        "clock_type": "祖",
         "clock_id": 48,
         "gender": "f",
         "name": "ハーゲンティ",
@@ -1262,6 +1290,20 @@ const MegidoCharsData = [
         "terminus": false,
         "implemented": null,
         "id": "祖52"
+    },
+    {
+        "clock_type": "祖",
+        "clock_id": 52,
+        "gender": "m",
+        "name": "アロケル",
+        "style": "ラッシュ",
+        "class": "ファイター",
+        "regenerated": true,
+        "main": false,
+        "event": true,
+        "terminus": false,
+        "implemented": "2021-08-31",
+        "id": "祖52R"
     },
     {
         "clock_type": "祖",
@@ -2150,7 +2192,7 @@ const MegidoCharsData = [
         "clock_id": 23,
         "gender": "f",
         "name": "ネフィリム",
-        "style": "カウンター",
+        "style": "バースト",
         "class": "スナイパー",
         "regenerated": true,
         "main": false,
@@ -2228,6 +2270,20 @@ const MegidoCharsData = [
         "terminus": false,
         "implemented": "2020-07-05",
         "id": "真28"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 29,
+        "gender": "f",
+        "name": "アルマロス",
+        "style": "バースト",
+        "class": "スナイパー",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": false,
+        "implemented": "2021-09-11",
+        "id": "真29"
     },
     {
         "clock_type": "真",
@@ -2466,6 +2522,20 @@ const MegidoCharsData = [
         "terminus": true,
         "implemented": "2020-11-22",
         "id": "真44"
+    },
+    {
+        "clock_type": "真",
+        "clock_id": 45,
+        "gender": "m",
+        "name": "チェルノボグ",
+        "style": "バースト",
+        "class": "ファイター",
+        "regenerated": false,
+        "main": false,
+        "event": false,
+        "terminus": true,
+        "implemented": "2021-08-31",
+        "id": "真45"
     },
     {
         "clock_type": "真",

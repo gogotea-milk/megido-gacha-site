@@ -1237,7 +1237,6 @@ const GachaListData = [
       }
     }
   },
-  */
   {
     name: "バロールサバト",
     rate_settings: {
@@ -1247,6 +1246,19 @@ const GachaListData = [
         真56: 0.012,
         祖3R: 0.006,
         真4R: 0.0035
+      }
+    }
+  }
+  */
+  {
+    name: "モラクスサバト",
+    rate_settings: {
+      base_rate: 0.1,
+      megido_back_of: "2021-09-30",
+      pickup: {
+        祖21R: 0.012,
+        真56: 0.006,
+        真23: 0.0035
       }
     }
   }
